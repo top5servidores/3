@@ -1,1175 +1,176 @@
-[14:33:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:33:17] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[14:33:19] [Worker-Main-9/INFO]: Loaded 7 recipes
-[14:33:21] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[14:33:21] [Server thread/INFO]: Loading properties
-[14:33:21] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-37d799b-3eb7236 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
-[14:33:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:33:21] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:33:21] [Server thread/INFO]: Debug logging is disabled
-[14:33:21] [Server thread/INFO]: Default game type: SURVIVAL
-[14:33:21] [Server thread/INFO]: Generating keypair
-[14:33:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:33:22] [Server thread/INFO]: Using epoll channel type
-[14:33:23] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[14:33:27] [Server thread/WARN]: Legacy plugin ProjectileKnockback v1.8 does not specify an api-version.
-[14:33:27] [Server thread/INFO]: [CrackShot] Loading CrackShot v0.98.11
-[14:33:27] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.8.7-SNAPSHOT
-[14:33:27] [Server thread/INFO]: [ProjectileKnockback] Loading ProjectileKnockback v1.8
-[14:33:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:33:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:33:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:33:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:33:27] [Server thread/INFO]: Preparing level "world"
-[14:33:27] [Server thread/INFO]: -------- World Settings For [world] --------
-[14:33:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[14:33:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:33:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[14:33:27] [Server thread/INFO]: Max TNT Explosions: 100
-[14:33:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:33:27] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:33:27] [Server thread/INFO]: Mob Spawn Range: 6
-[14:33:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:33:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:33:27] [Server thread/INFO]: View Distance: 10
-[14:33:27] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:33:27] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:33:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:33:27] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:33:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:33:27] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[14:33:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[14:33:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:33:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[14:33:27] [Server thread/INFO]: Max TNT Explosions: 100
-[14:33:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:33:27] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:33:27] [Server thread/INFO]: Mob Spawn Range: 6
-[14:33:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:33:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:33:27] [Server thread/INFO]: View Distance: 10
-[14:33:27] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:33:27] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:33:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:33:27] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:33:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:33:27] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[14:33:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:33:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[14:33:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:33:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[14:33:27] [Server thread/INFO]: Max TNT Explosions: 100
-[14:33:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:33:27] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:33:27] [Server thread/INFO]: Mob Spawn Range: 6
-[14:33:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:33:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:33:27] [Server thread/INFO]: View Distance: 10
-[14:33:27] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:33:27] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:33:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:33:27] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:33:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:33:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:33:30] [Server thread/INFO]: Preparing spawn area: 0%
-[14:33:30] [Server thread/INFO]: Preparing spawn area: 0%
-[14:33:30] [Server thread/INFO]: Preparing spawn area: 0%
-[14:33:30] [Server thread/INFO]: Preparing spawn area: 0%
-[14:33:30] [Server thread/INFO]: Preparing spawn area: 0%
-[14:33:30] [Server thread/INFO]: Preparing spawn area: 0%
-[14:33:30] [Server thread/INFO]: Time elapsed: 3012 ms
-[14:33:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:33:32] [Server thread/INFO]: Preparing spawn area: 0%
-[14:33:32] [Server thread/INFO]: Preparing spawn area: 0%
-[14:33:32] [Server thread/INFO]: Preparing spawn area: 0%
-[14:33:32] [Server thread/INFO]: Preparing spawn area: 0%
-[14:33:32] [Worker-Main-10/INFO]: Preparing spawn area: 83%
-[14:33:33] [Worker-Main-9/INFO]: Preparing spawn area: 83%
-[14:33:33] [Worker-Main-10/INFO]: Preparing spawn area: 83%
-[14:33:34] [Worker-Main-9/INFO]: Preparing spawn area: 83%
-[14:33:34] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[14:33:35] [Worker-Main-10/INFO]: Preparing spawn area: 83%
-[14:33:35] [Worker-Main-9/INFO]: Preparing spawn area: 85%
-[14:33:36] [Worker-Main-10/INFO]: Preparing spawn area: 87%
-[14:33:36] [Worker-Main-6/INFO]: Preparing spawn area: 88%
-[14:33:37] [Worker-Main-9/INFO]: Preparing spawn area: 96%
-[14:33:37] [Server thread/INFO]: Time elapsed: 6684 ms
-[14:33:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:33:38] [Server thread/INFO]: Preparing spawn area: 0%
-[14:33:38] [Server thread/INFO]: Preparing spawn area: 0%
-[14:33:38] [Worker-Main-10/INFO]: Preparing spawn area: 83%
-[14:33:39] [Worker-Main-8/INFO]: Preparing spawn area: 83%
-[14:33:39] [Worker-Main-8/INFO]: Preparing spawn area: 90%
-[14:33:39] [Server thread/INFO]: Time elapsed: 2221 ms
-[14:33:39] [Server thread/INFO]: [CrackShot] Enabling CrackShot v0.98.11
-[14:33:39] [Server thread/INFO]: [CrackShot] Gun-mode activated. Boop!
-[14:33:39] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.8.7-SNAPSHOT
-[14:33:40] [Server thread/INFO]: [SkinsRestorer] Failed PaperSkinRefresher
-[14:33:40] [Server thread/INFO]: [SkinsRestorer] Using SpigotSkinRefresher
-[14:33:40] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_16_R3[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
-[14:33:42] [Server thread/INFO]: [ProjectileKnockback] Enabling ProjectileKnockback v1.8
-[14:33:42] [Server thread/INFO]: [ProjectileKnockback] This plugin has been enabled!
-[14:33:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:33:43] [Server thread/INFO]: Done (15.508s)! For help, type "help"
-[14:33:43] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[14:33:43] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[14:33:43] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
-[14:33:43] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    |---------------|[m
-[14:33:43] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    |   [0;34;1m[4m[21mBukkit only[0;32;1m |[m
-[14:33:43] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[14:33:43] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[14:33:43] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.8.7-SNAPSHOT[m
-[14:33:43] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
-[14:33:43] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[14:33:43] [User Authenticator #1/INFO]: UUID of player Heterio is 434b0dec-929b-3fd4-beb5-afe92e84f45e
-[14:33:43] [Server thread/INFO]: com.mojang.authlib.GameProfile@220b3a91[id=434b0dec-929b-3fd4-beb5-afe92e84f45e,name=Heterio,properties={},legacy=false] (/0:0:0:0:0:0:0:1%0:52372) lost connection: Disconnected
-[14:33:50] [User Authenticator #2/INFO]: UUID of player Heterio is 434b0dec-929b-3fd4-beb5-afe92e84f45e
-[14:33:50] [Server thread/INFO]: Heterio[/0:0:0:0:0:0:0:1%0:53234] logged in with entity id 281 at ([world_nether]11.274453793625408, 52.0, -24.29300737428746)
-[14:34:01] [User Authenticator #3/INFO]: UUID of player nekkan is a26cb519-6dfb-3c83-83a7-9a9e707f61cf
-[14:34:02] [Server thread/INFO]: nekkan[/0:0:0:0:0:0:0:1%0:54016] logged in with entity id 355 at ([world]188.32995861770124, 11.491559915932099, -333.6568690264175)
-[14:34:07] [User Authenticator #4/INFO]: UUID of player Vitiinn_pup is 0603f729-5be4-3f33-869d-bf41cc26d19e
-[14:34:07] [Server thread/INFO]: Vitiinn_pup[/0:0:0:0:0:0:0:1%0:54432] logged in with entity id 436 at ([world]82.69999998807907, 11.0, -242.69999998807907)
-[14:34:10] [Async Chat Thread - #0/INFO]: <nekkan> de fude[m
-[14:34:11] [Async Chat Thread - #0/INFO]: <nekkan> meioc oraço[m
-[14:34:14] [Server thread/INFO]: nekkan discovered the floor was lava
-[14:34:15] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> da tp aqui nekkan[m
-[14:34:17] [Async Chat Thread - #0/INFO]: <nekkan> ah nao[m
-[14:34:18] [Server thread/INFO]: nekkan issued server command: /tp @a
-[14:34:19] [Server thread/INFO]: nekkan issued server command: /tp Vitiinn_pup
-[14:34:19] [Server thread/INFO]: [nekkan: Teleported nekkan to Vitiinn_pup]
-[14:34:21] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> só pra[m
-[14:34:22] [Async Chat Thread - #0/INFO]: <nekkan> bboa[m
-[14:34:23] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> você ver[m
-[14:34:24] [Async Chat Thread - #0/INFO]: <nekkan> MMANO[m
-[14:34:25] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> fdp[m
-[14:34:26] [Async Chat Thread - #0/INFO]: <nekkan> VCS TAV MT PERTO[m
-[14:34:27] [Async Chat Thread - #0/INFO]: <nekkan> EUA CHO[m
-[14:34:27] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> vem ca[m
-[14:34:36] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> vo te fala um bgl[m
-[14:34:43] [Async Chat Thread - #0/INFO]: <nekkan> iq[m
-[14:34:54] [Async Chat Thread - #0/INFO]: <Heterio> guys o portal se desfez[m
-[14:34:55] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> vem aqqqqqqqqqqqqqqqqqqqqq[m
-[14:34:55] [Async Chat Thread - #0/INFO]: <Heterio> wtf[m
-[14:35:00] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> eita[m
-[14:35:06] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> ó[m
-[14:35:07] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> pra vc ver[m
-[14:35:09] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> q é mt melhor[m
-[14:35:10] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> cavar[m
-[14:35:10] [Server thread/INFO]: Heterio issued server command: /tp Vitiinn_pup
-[14:35:10] [Server thread/INFO]: [Heterio: Teleported Heterio to Vitiinn_pup]
-[14:35:12] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> pra de baixo da11[m
-[14:35:19] [Async Chat Thread - #0/INFO]: <nekkan> ta bolm viro[m
-[14:35:21] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> viram?[m
-[14:35:23] [Async Chat Thread - #0/INFO]: <nekkan> vo coloca as buceta[m
-[14:35:26] [Server thread/INFO]: Vitiinn_pup has made the advancement [Diamonds!]
-[14:35:33] [Async Chat Thread - #0/INFO]: <nekkan> olha vito[m
-[14:35:34] [Async Chat Thread - #0/INFO]: <Heterio> cara ligou o xray fodase[m
-[14:35:38] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> liguei nd[m
-[14:35:42] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> é estratégia o nome[m
-[14:35:46] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[14:35:46] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[14:35:47] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> nekkan para de buceta[m
-[14:35:49] [Async Chat Thread - #0/INFO]: <nekkan> se liga heterio[m
-[14:35:54] [Async Chat Thread - #0/INFO]: <Heterio> wtf[m
-[14:36:00] [Async Chat Thread - #0/INFO]: <nekkan> gosotu das laca/[m
-[14:36:01] [Async Chat Thread - #0/INFO]: <nekkan> plac[m
-[14:36:16] [Async Chat Thread - #0/INFO]: <nekkan> ouro venomextrem[m
-[14:36:25] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> pega ouro[m
-[14:36:30] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> muinto ouro[m
-[14:36:31] [Server thread/INFO]: Heterio was shot by Skeleton
-[14:36:32] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> estamos em portugal[m
-[14:36:35] [Server thread/INFO]: Heterio issued server command: /tp Vitiinn_pup
-[14:36:35] [Server thread/INFO]: [Heterio: Teleported Heterio to Vitiinn_pup]
-[14:36:51] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> JKKKKKKKKK EU CAVEI UM BLOCO[m
-[14:36:52] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> Q EU TAVA[m
-[14:36:54] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> CAVANDO ANTES[m
-[14:36:55] [Async Chat Thread - #0/INFO]: <Heterio> KDOSHFUYASUAJS[m
-[14:36:55] [Server thread/INFO]: nekkan issued server command: /tp Vitiinn_pup
-[14:36:55] [Server thread/INFO]: [nekkan: Teleported nekkan to Vitiinn_pup]
-[14:37:06] [Async Chat Thread - #0/INFO]: <Heterio> peguei 1 de taxa[m
-[14:37:11] [Server thread/INFO]: Vitiinn_pup tried to swim in lava
-[14:37:12] [Async Chat Thread - #0/INFO]: <nekkan> KKKKKKKKKKKKKK[m
-[14:37:13] [Async Chat Thread - #0/INFO]: <nekkan> AH NAO[m
-[14:37:15] [Async Chat Thread - #0/INFO]: <Heterio> LKKKKKK[m
-[14:37:16] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> KKKKKKKKKKKKK vtmnc[m
-[14:37:17] [Async Chat Thread - #0/INFO]: <nekkan> JJJJJJJJJ H NAI[m
-[14:37:20] [Server thread/INFO]: nekkan has made the advancement [Acquire Hardware]
-[14:37:21] [Async Chat Thread - #0/INFO]: <nekkan> ah nao vitor[m
-[14:37:27] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> MANO[m
-[14:37:28] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> EU FUI[m
-[14:37:29] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> SECO[m
-[14:37:31] [Server thread/INFO]: nekkan has made the advancement [Isn't It Iron Pick]
-[14:37:33] [Async Chat Thread - #0/INFO]: <nekkan> kSDJIKOLADSHJASIUONSA[m
-[14:37:43] [Server thread/INFO]: Vitiinn_pup issued server command: /TP N
-[14:37:48] [Server thread/INFO]: Vitiinn_pup issued server command: /tp nekkan
-[14:37:48] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to nekkan]
-[14:37:53] [Server thread/INFO]: Vitiinn_pup has made the advancement [We Need to Go Deeper]
-[14:37:58] [Server thread/INFO]: nekkan has made the advancement [We Need to Go Deeper]
-[14:38:15] [Server thread/INFO]: nekkan issued server command: /tp Vitiinn_pup
-[14:38:15] [Server thread/INFO]: [nekkan: Teleported nekkan to Vitiinn_pup]
-[14:38:20] [Server thread/INFO]: nekkan issued server command: /kill
-[14:38:20] [Server thread/INFO]: nekkan fell out of the world
-[14:38:20] [Server thread/INFO]: [nekkan: Killed nekkan]
-[14:38:27] [Async Chat Thread - #0/INFO]: <nekkan> vo epga madeira[m
-[14:38:37] [Server thread/INFO]: Heterio was blown up by Creeper
-[14:38:42] [Server thread/INFO]: Heterio issued server command: /tp Vitiinn_pup
-[14:38:42] [Server thread/INFO]: [Heterio: Teleported Heterio to Vitiinn_pup]
-[14:38:49] [Server thread/INFO]: Heterio issued server command: /spawnpoint
-[14:38:49] [Server thread/INFO]: [Heterio: Set spawn point to 81, 11, -236 [0.0] in minecraft:overworld for Heterio]
-[14:39:01] [Async Chat Thread - #0/INFO]: <nekkan> a[m
-[14:39:02] [Server thread/INFO]: Vitiinn_pup was shot by Skeleton
-[14:39:04] [Server thread/INFO]: nekkan issued server command: /tp Vitiinn_pup
-[14:39:04] [Server thread/INFO]: [nekkan: Teleported nekkan to Vitiinn_pup]
-[14:39:07] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> NETHER N TEM[m
-[14:39:08] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> GAMERULE[m
-[14:39:09] [Server thread/INFO]: nekkan issued server command: /gamerule keepInventory true
-[14:39:09] [Server thread/INFO]: [nekkan: Gamerule keepInventory is now set to: true]
-[14:39:10] [Async Chat Thread - #0/INFO]: <nekkan> pronto[m
-[14:39:13] [Server thread/INFO]: Vitiinn_pup issued server command: /tp nekkan
-[14:39:13] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to nekkan]
-[14:39:15] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> pega meus item[m
-[14:39:16] [Server thread/INFO]: Heterio has made the advancement [Suit Up]
-[14:39:17] [Async Chat Thread - #0/INFO]: <Heterio> KKKKKKKKKKKKKK[m
-[14:39:26] [Async Chat Thread - #0/INFO]: <nekkan> da comiad[m
-[14:39:32] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> carne podre[m
-[14:39:33] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> serve?[m
-[14:39:36] [Async Chat Thread - #0/INFO]: <nekkan> nao[m
-[14:39:38] [Server thread/INFO]: Heterio was blown up by Creeper
-[14:39:42] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> KKKK o cara acabou de ver meu inventário[m
-[14:39:43] [Async Chat Thread - #0/INFO]: <Heterio> meu deus[m
-[14:39:45] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> e pergunta se tenho comida[m
-[14:39:58] [Async Chat Thread - #0/INFO]: <nekkan> mano[m
-[14:39:59] [Async Chat Thread - #0/INFO]: <nekkan> eu to no shift/[m
-[14:40:01] [Async Chat Thread - #0/INFO]: <nekkan> ?[m
-[14:40:02] [Server thread/INFO]: nekkan issued server command: /tp Vitiinn_pup
-[14:40:02] [Server thread/INFO]: [nekkan: Teleported nekkan to Vitiinn_pup]
-[14:40:03] [Async Chat Thread - #0/INFO]: <nekkan> olha aq[m
-[14:40:16] [Async Chat Thread - #0/INFO]: <nekkan> to ou nao[m
-[14:40:19] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> ta[m
-[14:40:21] [Async Chat Thread - #0/INFO]: <nekkan> WTF[m
-[14:40:24] [Async Chat Thread - #0/INFO]: <nekkan> e agr[m
-[14:40:26] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> me ajuda a pegar bloco[m
-[14:40:26] [Async Chat Thread - #0/INFO]: <nekkan> ja tenho[m
-[14:40:28] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> agora nao[m
-[14:40:44] [Server thread/INFO]: nekkan tried to swim in lava
-[14:40:44] [Server thread/INFO]: nekkan issued server command: /gamemode spectator
-[14:40:44] [Server thread/INFO]: [nekkan: Set own game mode to Spectator Mode]
-[14:40:47] [Async Chat Thread - #0/INFO]: <nekkan> de proposito[m
-[14:40:47] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> nekkan.[m
-[14:40:48] [Async Chat Thread - #0/INFO]: <Heterio> tarde[m
-[14:40:49] [Server thread/INFO]: nekkan issued server command: /gamemode survival
-[14:40:49] [Server thread/INFO]: [nekkan: Set own game mode to Survival Mode]
-[14:40:51] [Server thread/INFO]: nekkan issued server command: /tp Vitiinn_pup
-[14:40:51] [Server thread/INFO]: [nekkan: Teleported nekkan to Vitiinn_pup]
-[14:40:52] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> da tp[m
-[14:41:00] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> tu n viu?[m
-[14:41:03] [Async Chat Thread - #0/INFO]: <nekkan> acho que sim[m
-[14:41:08] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> sobe[m
-[14:41:11] [Server thread/INFO]: nekkan issued server command: /tpv
-[14:41:12] [Server thread/INFO]: nekkan issued server command: /tp Vitiinn_pup
-[14:41:12] [Server thread/INFO]: [nekkan: Teleported nekkan to Vitiinn_pup]
-[14:41:20] [Async Chat Thread - #0/INFO]: <nekkan> gg[m
-[14:41:21] [Server thread/INFO]: nekkan burned to death
-[14:41:24] [Server thread/INFO]: nekkan issued server command: /tp Vitiinn_pup
-[14:41:24] [Server thread/INFO]: [nekkan: Teleported nekkan to Vitiinn_pup]
-[14:41:26] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> KKK o cara andou em orreu[m
-[14:41:27] [Server thread/INFO]: Heterio issued server command: /tp Vitiinn_pup
-[14:41:27] [Server thread/INFO]: [Heterio: Teleported Heterio to Vitiinn_pup]
-[14:41:32] [Async Chat Thread - #0/INFO]: <Heterio> KJJJJJ[m
-[14:41:34] [Async Chat Thread - #0/INFO]: <nekkan> heteri[m
-[14:41:35] [Async Chat Thread - #0/INFO]: <nekkan> sobe no barco[m
-[14:41:38] [Server thread/INFO]: Vitiinn_pup has made the advancement [Hidden in the Depths]
-[14:41:40] [Async Chat Thread - #0/INFO]: <nekkan> pra ter[m
-[14:41:41] [Async Chat Thread - #0/INFO]: <nekkan> a experiencia[m
-[14:41:43] [Async Chat Thread - #0/INFO]: <nekkan> rapidinho[m
-[14:41:56] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> experiencia foda[m
-[14:41:59] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> tomei 3814938490184901 de dano[m
-[14:42:00] [Server thread/INFO]: Vitiinn_pup tried to swim in lava
-[14:42:02] [Async Chat Thread - #0/INFO]: <nekkan> SIM NE[m
-[14:42:05] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> ah blz[m
-[14:42:11] [Server thread/INFO]: Vitiinn_pup issued server command: /tp nekkan
-[14:42:12] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to nekkan]
-[14:42:12] [Async Chat Thread - #0/INFO]: <Heterio> aqui tem gamerule?[m
-[14:42:17] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> não[m
-[14:42:23] [Async Chat Thread - #0/INFO]: <nekkan> tem s[m
-[14:42:26] [Async Chat Thread - #0/INFO]: <nekkan> eu coloqeui[m
-[14:42:28] [Async Chat Thread - #0/INFO]: <nekkan> heterio[m
-[14:42:30] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> ala o nekkan[m
-[14:42:31] [Async Chat Thread - #0/INFO]: <nekkan> vem na experiencia[m
-[14:42:31] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> querendo[m
-[14:42:34] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> fazer tu morrer[m
-[14:42:37] [Async Chat Thread - #0/INFO]: <nekkan> e mentir asua[m
-[14:42:41] [Server thread/INFO]: Heterio issued server command: /gamerule keepInventory true
-[14:42:41] [Server thread/INFO]: [Heterio: Gamerule keepInventory is now set to: true]
-[14:42:43] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> mentiroso[m
-[14:42:45] [Server thread/INFO]: Heterio tried to swim in lava
-[14:42:48] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> ah mmmmmmmmmmmmmm[m
-[14:42:50] [Async Chat Thread - #0/INFO]: <nekkan> da tp heteriot[m
-[14:42:55] [Async Chat Thread - #0/INFO]: <nekkan> MABNO[m
-[14:42:57] [Async Chat Thread - #0/INFO]: <nekkan> EU TO DEITADO[m
-[14:42:58] [Async Chat Thread - #0/INFO]: <nekkan> NO BARCO[m
-[14:42:58] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:42:58] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:42:58] [Async Chat Thread - #0/INFO]: <nekkan> WTF[m
-[14:42:59] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:42:59] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:42:59] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:42:59] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:00] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:00] [Async Chat Thread - #0/INFO]: <nekkan> OLHA[m
-[14:43:00] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:00] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:01] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:01] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:01] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:02] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:02] [Async Chat Thread - #0/INFO]: <Heterio> LDSAJIDKAS[m
-[14:43:02] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:02] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:02] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:03] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:03] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:03] [Server thread/INFO]: Heterio issued server command: /tp Vitiinn_pup
-[14:43:03] [Server thread/INFO]: [Heterio: Teleported Heterio to Vitiinn_pup]
-[14:43:03] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:04] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:04] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:07] [Async Chat Thread - #0/INFO]: <nekkan> EU TO DEITADO NO BARCO[m
-[14:43:08] [Async Chat Thread - #0/INFO]: <nekkan> ALGM DA TP[m
-[14:43:10] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:10] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:10] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:11] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> BASTION[m
-[14:43:15] [Server thread/INFO]: nekkan issued server command: /tp b
-[14:43:15] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> FDS NEKKAN DA TP COM O BARCO[m
-[14:43:18] [Async Chat Thread - #0/INFO]: <nekkan> a fodase[m
-[14:43:19] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> achamo bastion[m
-[14:43:20] [Async Chat Thread - #0/INFO]: <nekkan> kd tu[m
-[14:43:24] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> da tp[m
-[14:43:36] [Async Chat Thread - #0/INFO]: <nekkan> n vo la assim[m
-[14:44:00] [Server thread/INFO]: nekkan tried to swim in lava
-[14:44:04] [Async Chat Thread - #0/INFO]: <nekkan> de fude[m
-[14:44:05] [Server thread/INFO]: nekkan issued server command: /tp Vitiinn_pup
-[14:44:05] [Server thread/INFO]: [nekkan: Teleported nekkan to Vitiinn_pup]
-[14:44:07] [Server thread/INFO]: Heterio has made the advancement [Those Were the Days]
-[14:44:12] [Server thread/INFO]: nekkan has made the advancement [Those Were the Days]
-[14:44:19] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> nekkan de anti knockback[m
-[14:44:22] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> levou uma na fuça e n caiu na lava[m
-[14:44:28] [Server thread/INFO]: Vitiinn_pup has made the advancement [Those Were the Days]
-[14:44:32] [Async Chat Thread - #0/INFO]: <nekkan> eu l aguei[m
-[14:44:51] [Server thread/INFO]: nekkan issued server command: /tp Vitiinn_pup
-[14:44:51] [Server thread/INFO]: [nekkan: Teleported nekkan to Vitiinn_pup]
-[14:44:52] [Async Chat Thread - #0/INFO]: <nekkan> viadinho[m
-[14:44:54] [Server thread/INFO]: nekkan was burnt to a crisp whilst fighting Vitiinn_pup
-[14:44:54] [Server thread/INFO]: Heterio was slain by Piglin Brute
-[14:44:54] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> nao[m
-[14:44:55] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> resisti[m
-[14:44:57] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[14:44:57] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[14:44:57] [Server thread/INFO]: Vitiinn_pup issued server command: /tp het
-[14:44:58] [Server thread/INFO]: Heterio issued server command: /tp Vitiinn_pup
-[14:44:58] [Server thread/INFO]: [Heterio: Teleported Heterio to Vitiinn_pup]
-[14:44:58] [Server thread/INFO]: Vitiinn_pup issued server command: /tp Heterio
-[14:44:58] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to Heterio]
-[14:44:59] [Server thread/INFO]: nekkan issued server command: /tp Vitiinn_pup
-[14:44:59] [Server thread/INFO]: [nekkan: Teleported nekkan to Vitiinn_pup]
-[14:45:24] [Async Chat Thread - #0/INFO]: <nekkan> aff[m
-[14:45:29] [Server thread/INFO]: Vitiinn_pup was slain by Piglin
-[14:45:34] [Server thread/INFO]: Vitiinn_pup issued server command: /tp nekkan
-[14:45:34] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to nekkan]
-[14:45:35] [Server thread/INFO]: nekkan issued server command: /gamemode spectator
-[14:45:35] [Server thread/INFO]: [nekkan: Set own game mode to Spectator Mode]
-[14:45:35] [Server thread/INFO]: nekkan issued server command: /tp Vitiinn_pup
-[14:45:35] [Server thread/INFO]: [nekkan: Teleported nekkan to Vitiinn_pup]
-[14:45:36] [Server thread/WARN]: nekkan moved too quickly! -0.7781293489227608,20.312357709390653,4.338817039672352
-[14:45:36] [Server thread/WARN]: nekkan moved too quickly! -0.7781293489227608,20.312357709390653,4.338817039672352
-[14:45:36] [Server thread/WARN]: nekkan moved too quickly! -0.7781293489227608,20.312357709390653,4.338817039672352
-[14:45:36] [Server thread/WARN]: nekkan moved too quickly! -0.7781293489227608,20.312357709390653,4.338817039672352
-[14:45:36] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> para fdp[m
-[14:45:36] [Server thread/WARN]: nekkan moved too quickly! -0.7781293489227608,20.312357709390653,4.338817039672352
-[14:45:37] [Server thread/WARN]: nekkan moved too quickly! -0.7781293489227608,20.312357709390653,4.338817039672352
-[14:45:37] [Server thread/WARN]: nekkan moved too quickly! -0.7781293489227608,20.312357709390653,4.338817039672352
-[14:45:37] [Server thread/WARN]: nekkan moved too quickly! -0.7781293489227608,20.312357709390653,4.338817039672352
-[14:45:37] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[14:45:37] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[14:45:37] [Server thread/WARN]: nekkan moved too quickly! 24.57204027711981,28.5,6.967448741206641
-[14:45:39] [Server thread/INFO]: Vitiinn_pup tried to swim in lava
-[14:45:39] [Async Chat Thread - #0/INFO]: <nekkan> ah nao[m
-[14:45:42] [Async Chat Thread - #0/INFO]: <nekkan> EU TTO NA VISAO[m
-[14:45:42] [Async Chat Thread - #0/INFO]: <nekkan> AKIOSDN ASJILSADSA[m
-[14:45:43] [Server thread/INFO]: Vitiinn_pup issued server command: /tp Heterio
-[14:45:43] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to Heterio]
-[14:45:43] [Async Chat Thread - #0/INFO]: <nekkan> ASDKNMKJASDNMDJKASDJI[m
-[14:45:44] [Async Chat Thread - #0/INFO]: <nekkan> KOJASDKOLJNIJLASDHNJIL[m
-[14:45:54] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[14:45:54] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[14:45:58] [Server thread/INFO]: nekkan issued server command: /gamemode survival
-[14:45:58] [Server thread/INFO]: [nekkan: Set own game mode to Survival Mode]
-[14:46:00] [Server thread/INFO]: Heterio tried to swim in lava to escape Piglin Brute
-[14:46:01] [Server thread/INFO]: Vitiinn_pup was slain by Piglin Brute
-[14:46:03] [Server thread/INFO]: nekkan was slain by Piglin
-[14:46:04] [Server thread/INFO]: Heterio issued server command: /tp Vitiinn_pup
-[14:46:04] [Server thread/INFO]: [Heterio: Teleported Heterio to Vitiinn_pup]
-[14:46:06] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> NICE[m
-[14:46:07] [Server thread/INFO]: Heterio was slain by Piglin Brute
-[14:46:07] [Server thread/INFO]: nekkan issued server command: /tp Vitiinn_pup
-[14:46:07] [Server thread/INFO]: [nekkan: Teleported nekkan to Vitiinn_pup]
-[14:46:09] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[14:46:09] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[14:46:11] [Server thread/INFO]: nekkan was slain by Piglin Brute
-[14:46:12] [Server thread/INFO]: Vitiinn_pup issued server command: /tp Heterio
-[14:46:12] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to Heterio]
-[14:46:13] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:46:13] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[14:46:14] [Server thread/INFO]: Heterio was slain by Piglin Brute
-[14:46:17] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[14:46:17] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[14:46:18] [Server thread/INFO]: Vitiinn_pup issued server command: /tp Heterio
-[14:46:18] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to Heterio]
-[14:46:19] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:46:19] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[14:46:20] [Server thread/INFO]: Heterio was slain by Piglin Brute
-[14:46:23] [Server thread/INFO]: Vitiinn_pup issued server command: /tp nekkan
-[14:46:23] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to nekkan]
-[14:46:23] [Server thread/WARN]: Heterio was kicked for floating too long!
-[14:46:23] [Server thread/INFO]: Heterio lost connection: Flying is not enabled on this server
-[14:46:23] [Server thread/INFO]: Heterio left the game
-[14:46:25] [Async Chat Thread - #0/INFO]: <nekkan> da p[m
-[14:46:26] [Server thread/INFO]: nekkan was slain by Piglin Brute
-[14:46:27] [User Authenticator #5/INFO]: UUID of player Heterio is 434b0dec-929b-3fd4-beb5-afe92e84f45e
-[14:46:27] [Server thread/INFO]: Heterio[/0:0:0:0:0:0:0:1%0:48632] logged in with entity id 2697 at ([world_nether]130.9695409165454, 68.16819097901245, 13.327680196361413)
-[14:46:29] [Server thread/INFO]: Vitiinn_pup was slain by Piglin Brute
-[14:46:29] [Server thread/INFO]: nekkan issued server command: /tp Vitiinn_pup
-[14:46:29] [Server thread/INFO]: [nekkan: Teleported nekkan to Vitiinn_pup]
-[14:46:32] [Server thread/INFO]: nekkan was slain by Piglin Brute
-[14:46:32] [Server thread/INFO]: Heterio issued server command: /tp Vitiinn_pup
-[14:46:32] [Server thread/INFO]: [Heterio: Teleported Heterio to Vitiinn_pup]
-[14:46:32] [Server thread/INFO]: Vitiinn_pup issued server command: /tp nekkan
-[14:46:32] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to nekkan]
-[14:46:35] [Server thread/INFO]: nekkan issued server command: /tp Vitiinn_pup
-[14:46:35] [Server thread/INFO]: [nekkan: Teleported nekkan to Vitiinn_pup]
-[14:46:35] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:46:35] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[14:46:36] [Server thread/INFO]: Vitiinn_pup tried to swim in lava to escape Piglin Brute
-[14:46:38] [Server thread/INFO]: nekkan tried to swim in lava
-[14:46:39] [Server thread/INFO]: Heterio tried to swim in lava
-[14:46:40] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[14:46:40] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[14:46:42] [Server thread/INFO]: nekkan issued server command: /tpv
-[14:46:42] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> KKKKKKKKKK AH NAO[m
-[14:46:42] [Server thread/INFO]: nekkan issued server command: /tp Vitiinn_pup
-[14:46:42] [Server thread/INFO]: [nekkan: Teleported nekkan to Vitiinn_pup]
-[14:46:44] [Server thread/INFO]: Vitiinn_pup issued server command: /tp Heterio
-[14:46:44] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to Heterio]
-[14:46:45] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[14:46:45] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[14:46:51] [Server thread/INFO]: nekkan issued server command: /tp Vitiinn_pup nekkan
-[14:46:51] [Server thread/INFO]: [nekkan: Teleported Vitiinn_pup to nekkan]
-[14:46:52] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> vo almoça[m
-[14:46:53] [Async Chat Thread - #0/INFO]: <Vitiinn_pup> jvlt[m
-[14:47:07] [Async Chat Thread - #0/INFO]: <nekkan> vo de barco fds[m
-[14:47:15] [Async Chat Thread - #0/INFO]: <nekkan> ah term ponte deixa[m
-[14:47:27] [Server thread/WARN]: nekkan was kicked for floating a vehicle too long!
-[14:47:27] [Server thread/INFO]: nekkan lost connection: Flying is not enabled on this server
-[14:47:27] [Server thread/INFO]: nekkan left the game
-[14:47:28] [User Authenticator #6/INFO]: UUID of player nekkan is a26cb519-6dfb-3c83-83a7-9a9e707f61cf
-[14:47:28] [Server thread/INFO]: nekkan[/0:0:0:0:0:0:0:1%0:52900] logged in with entity id 2971 at ([world_nether]130.57105177184684, 59.91160034477686, 5.087678521052837)
-[14:47:32] [Async Chat Thread - #0/INFO]: <nekkan> a[m
-[14:47:35] [Async Chat Thread - #0/INFO]: <nekkan> a[m
-[14:47:44] [Async Chat Thread - #0/INFO]: <nekkan> da tp[m
-[14:48:02] [Server thread/INFO]: nekkan issued server command: /gamemode spectator
-[14:48:02] [Server thread/INFO]: [nekkan: Set own game mode to Spectator Mode]
-[14:48:09] [Server thread/INFO]: nekkan issued server command: /gamemode survival
-[14:48:09] [Server thread/INFO]: [nekkan: Set own game mode to Survival Mode]
-[14:48:11] [Server thread/INFO]: nekkan was slain by Piglin Brute
-[14:48:13] [Async Chat Thread - #0/INFO]: <Heterio> pro[m
-[14:48:14] [Server thread/INFO]: Heterio was shot by Skeleton
-[14:48:15] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[14:48:15] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[14:48:16] [Async Chat Thread - #0/INFO]: <nekkan> de fude[m
-[14:48:21] [Server thread/INFO]: nekkan issued server command: /kill
-[14:48:21] [Server thread/INFO]: nekkan fell out of the world
-[14:48:21] [Server thread/INFO]: [nekkan: Killed nekkan]
-[14:48:28] [Async Chat Thread - #0/INFO]: <nekkan> agr vo de baro fd[m
-[14:48:29] [Async Chat Thread - #0/INFO]: <nekkan> barco[m
-[14:48:43] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[14:48:43] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[14:49:18] [Server thread/WARN]: nekkan was kicked for floating a vehicle too long!
-[14:49:18] [Server thread/INFO]: nekkan lost connection: Flying is not enabled on this server
-[14:49:18] [Server thread/INFO]: nekkan left the game
-[14:49:19] [User Authenticator #7/INFO]: UUID of player nekkan is a26cb519-6dfb-3c83-83a7-9a9e707f61cf
-[14:49:20] [Server thread/INFO]: nekkan[/0:0:0:0:0:0:0:1%0:60414] logged in with entity id 3341 at ([world_nether]120.74410134345406, 68.25160025894613, 2.0240339442438637)
-[14:49:24] [Server thread/INFO]: Heterio was blown up by Creeper
-[14:49:32] [Async Chat Thread - #1/INFO]: <nekkan> da tp[m
-[14:49:44] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:49:44] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[14:49:49] [Server thread/INFO]: Heterio fell from a high place
-[14:49:53] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:49:53] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[14:49:53] [Server thread/INFO]: nekkan fell from a high place
-[14:49:56] [Server thread/INFO]: Heterio has made the advancement [War Pigs]
-[14:49:57] [Async Chat Thread - #1/INFO]: <nekkan> foda[m
-[14:49:57] [Server thread/INFO]: nekkan issued server command: /tp bh
-[14:49:58] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[14:49:58] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[14:50:00] [Server thread/INFO]: nekkan was slain by Piglin Brute
-[14:50:00] [Server thread/INFO]: Heterio has made the advancement [Cover Me With Diamonds]
-[14:50:03] [Server thread/INFO]: Heterio tried to swim in lava to escape Piglin Brute
-[14:50:03] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[14:50:03] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[14:50:06] [Server thread/INFO]: nekkan tried to swim in lava
-[14:50:09] [Server thread/INFO]: nekkan issued server command: /gamemode spectator
-[14:50:09] [Server thread/INFO]: [nekkan: Set own game mode to Spectator Mode]
-[14:50:11] [Async Chat Thread - #1/INFO]: <Heterio> peguei uma bota fodase[m
-[14:50:11] [Server thread/INFO]: nekkan issued server command: /gamemode survival
-[14:50:11] [Server thread/INFO]: [nekkan: Set own game mode to Survival Mode]
-[14:50:12] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[14:50:12] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[14:50:13] [Async Chat Thread - #1/INFO]: <nekkan> k[m
-[14:50:19] [Async Chat Thread - #1/INFO]: <nekkan> vem no barquin[m
-[14:50:24] [Server thread/INFO]: Vitiinn_pup lost connection: Timed out
-[14:50:24] [Server thread/INFO]: Vitiinn_pup left the game
-[14:50:33] [Async Chat Thread - #1/INFO]: <nekkan> na real so dar tp[m
-[14:50:48] [Async Chat Thread - #1/INFO]: <nekkan> a[m
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 15.660619598133593,10.920000037550807,5.991220560658885
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 16.034165569781152,11.180000038444874,6.134126547977093
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 16.40771515602458,11.44000003933894,6.277033918116775
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 16.781267995404193,11.700000040233007,6.419942532795748
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 17.1548237626063,11.960000041127074,6.562852267560054
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 17.52838216484858,12.220000042021141,6.705763010401132
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 17.901942938626945,12.480000042915208,6.848674660511282
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 18.275505846787723,12.740000043809275,6.991587127163573
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 18.64907067589266,13.000000044703341,7.134500328703773
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 19.022637233847263,13.260000045597408,7.277414191643075
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 19.39620534776654,13.520000046491475,7.420328649841551
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 19.769774862053993,13.780000047385542,7.563243643773269
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 20.143345636672734,14.040000048279609,7.706159119864894
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 20.51691754558962,14.300000049173676,7.849075029900423
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 20.890490475374833,14.560000050067742,7.991991330485455
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 21.26406432394151,14.82000005096181,8.13490798256503
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 21.63763899941145,15.080000051855876,8.277824950989686
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 22.01121441909433,15.340000052749943,8.420742204124908
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 22.38479050856884,15.60000005364401,8.56365971349963
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 22.758367200855787,15.860000054538077,8.7065774534899
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 23.131944435673944,16.120000055432143,8.849495401034153
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 23.505522158770134,16.38000005632621,8.992413535376988
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 23.87910032131657,16.640000057220277,9.135331837838544
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 24.252678879368233,16.900000058114344,9.278250291606943
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 24.62625779337455,17.16000005900841,9.421168881551498
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 24.999837027740085,17.420000059902478,9.56408759405459
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 16.237324887267107,9.320000046491515,7.43167740218613
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 16.57754155779955,9.280000047385585,7.575246833027283
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 16.920323567961702,9.240000048279654,7.720623379906062
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 17.264609635343277,9.200000049173724,7.8693370217335765
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 17.609112574401337,9.160000050067794,8.023168223822928
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 17.952293461730278,9.120000050961863,8.184030060596738
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 18.292342560856014,9.080000051855933,8.353850953881127
-[14:50:50] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 18.627165542702613,9.040000052750003,8.534467932241675
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025440425212,-0.920000234246146,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.69502526034256,-0.6600002333520791,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695025098268175,-0.4000002324580123,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.69502495240124,-0.14000023156394548,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -17.695036351343333,0.5799997523428004,-10.803029241710288
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-26.4400000393388,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.000000026821823,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.040000025927753,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.080000025033684,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.120000024139614,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.160000023245544,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.200000022351475,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.240000021457405,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.280000020563335,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.320000019669266,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.360000018775196,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.400000017881126,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.440000016987057,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.480000016092987,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.520000015198917,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.560000014304848,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.600000013410778,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.64000001251671,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.68000001162264,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.72000001072857,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.7600000098345,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.80000000894043,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.84000000804636,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.88000000715229,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.92000000625822,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-27.96000000536415,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-28.00000000447008,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-28.04000000357601,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-28.080000002681942,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-28.120000001787872,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-28.160000000893803,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-28.199999999999733,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-28.239999999105663,3.514271583786388
-[14:50:51] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! 1.7945048974427351,-28.279999998211593,3.514271583786388
-[14:50:52] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:50:52] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.299999848007886,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.03999984711382,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.299999848007886,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.55999984890195,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,35.81999984979602,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,36.079999850690086,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,36.33999985158415,-3.514271583786388
-[14:50:52] [Server thread/WARN]: Boat (vehicle of nekkan) moved too quickly! -1.7945048974427351,33.6399998247621,-3.514271583786388
-[14:50:54] [Server thread/INFO]: nekkan issued server command: /home
-[14:50:56] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:50:56] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[14:50:56] [Async Chat Thread - #1/INFO]: <nekkan> mano[m
-[14:50:57] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:50:57] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[14:50:57] [Server thread/INFO]: nekkan lost connection: Disconnected
-[14:50:57] [Server thread/INFO]: nekkan left the game
-[14:50:57] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:50:58] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:50:58] [User Authenticator #8/INFO]: UUID of player nekkan is a26cb519-6dfb-3c83-83a7-9a9e707f61cf
-[14:50:58] [Server thread/INFO]: nekkan[/0:0:0:0:0:0:0:1%0:38754] logged in with entity id 3672 at ([world_nether]158.73453973955458, 51.6475007593629, -19.445176121080657)
-[14:50:58] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:50:58] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[14:51:00] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:51:00] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[14:51:02] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:51:02] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[14:51:03] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:51:03] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[14:51:04] [Async Chat Thread - #1/INFO]: <nekkan> a[m
-[14:51:04] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:51:04] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[14:51:05] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:51:05] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[14:51:05] [Server thread/INFO]: nekkan issued server command: /gamemode spectator
-[14:51:05] [Server thread/INFO]: [nekkan: Set own game mode to Spectator Mode]
-[14:51:05] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:51:05] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[14:51:06] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:51:06] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[14:51:07] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:51:07] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[14:51:08] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:51:08] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[14:51:09] [Server thread/INFO]: Heterio burned to death
-[14:51:12] [Server thread/INFO]: nekkan issued server command: /gamemode survival
-[14:51:12] [Server thread/INFO]: [nekkan: Set own game mode to Survival Mode]
-[14:51:13] [Async Chat Thread - #1/INFO]: <nekkan> iora[m
-[14:51:15] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[14:51:15] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[14:51:15] [Async Chat Thread - #1/INFO]: <nekkan> tava tesatndo[m
-[14:51:16] [Async Chat Thread - #1/INFO]: <nekkan> um baulho[m
-[14:51:23] [Async Chat Thread - #1/INFO]: <nekkan> no barco[m
-[14:51:49] [Server thread/INFO]: nekkan was slain by Piglin Brute
-[14:51:59] [Server thread/INFO]: nekkan issued server command: /execute in minecraft:the_nether run tp 119 81 28
-[14:51:59] [Server thread/INFO]: [nekkan: Teleported nekkan to 119.5, 81.0, 28.5]
-[14:52:00] [Server thread/INFO]: nekkan issued server command: /gamemode spectator
-[14:52:00] [Server thread/INFO]: [nekkan: Set own game mode to Spectator Mode]
-[14:52:03] [Server thread/INFO]: Heterio has made the advancement [Who is Cutting Onions?]
-[14:52:09] [Server thread/INFO]: nekkan issued server command: /gamemode survival
-[14:52:09] [Server thread/INFO]: [nekkan: Set own game mode to Survival Mode]
-[14:52:16] [Server thread/INFO]: nekkan has made the advancement [War Pigs]
-[14:52:24] [Server thread/INFO]: nekkan has made the advancement [Ice Bucket Challenge]
-[14:52:24] [Server thread/INFO]: Heterio has made the advancement [Ice Bucket Challenge]
-[14:52:30] [Async Chat Thread - #2/INFO]: <nekkan> netherite[m
-[14:52:31] [Async Chat Thread - #2/INFO]: <nekkan> scrap[m
-[14:52:31] [Async Chat Thread - #2/INFO]: <nekkan> gg[m
-[14:52:51] [Server thread/INFO]: nekkan was slain by Piglin Brute
-[14:52:56] [Server thread/INFO]: nekkan issued server command: /execute in minecraft:the_nether run tp 119 81 28
-[14:52:56] [Server thread/INFO]: [nekkan: Teleported nekkan to 119.5, 81.0, 28.5]
-[14:52:58] [Server thread/INFO]: nekkan issued server command: /gamemode spectator
-[14:52:58] [Server thread/INFO]: [nekkan: Set own game mode to Spectator Mode]
-[14:53:02] [Server thread/INFO]: nekkan issued server command: /gamemode survival
-[14:53:02] [Server thread/INFO]: [nekkan: Set own game mode to Survival Mode]
-[14:53:36] [Server thread/INFO]: Heterio has made the advancement [Ol' Betsy]
-[14:53:36] [Server thread/INFO]: Heterio has made the advancement [Take Aim]
-[14:53:40] [Server thread/INFO]: nekkan lost connection: Disconnected
-[14:53:40] [Server thread/INFO]: nekkan left the game
-[14:53:42] [User Authenticator #9/INFO]: UUID of player nekkan is a26cb519-6dfb-3c83-83a7-9a9e707f61cf
-[14:53:42] [Server thread/INFO]: nekkan[/0:0:0:0:0:0:0:1%0:49694] logged in with entity id 3950 at ([world_nether]119.0660103811373, 85.0, 21.30000001192093)
-[14:54:16] [Async Chat Thread - #3/INFO]: <nekkan> matei 4 brute aq[m
-[14:54:20] [Async Chat Thread - #3/INFO]: <Heterio> matei '1[m
-[14:54:21] [User Authenticator #10/INFO]: UUID of player Vitiinn_pup is 0603f729-5be4-3f33-869d-bf41cc26d19e
-[14:54:21] [Server thread/INFO]: Vitiinn_pup[/0:0:0:0:0:0:0:1%0:52268] logged in with entity id 4031 at ([world]75.69999998807907, 11.0, -239.69999998807907)
-[14:54:32] [Async Chat Thread - #3/INFO]: <Vitiinn_pup> CARALHO ENTREI E TAVA COM 90 FPS[m
-[14:54:33] [Async Chat Thread - #3/INFO]: <Vitiinn_pup> 84[m
-[14:54:36] [Async Chat Thread - #3/INFO]: <Vitiinn_pup> NUNCA ACONTECEU SISO[m
-[14:54:40] [Async Chat Thread - #3/INFO]: <nekkan> q triste[m
-[14:54:46] [Async Chat Thread - #3/INFO]: <nekkan> o meu antigo pegava 50 no maximo[m
-[14:54:48] [Async Chat Thread - #3/INFO]: <nekkan> na 1.16[m
-[14:54:50] [Server thread/INFO]: Vitiinn_pup was shot by Skeleton
-[14:54:56] [Server thread/INFO]: Vitiinn_pup issued server command: /tp nekkan
-[14:54:56] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to nekkan]
-[14:55:05] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[14:55:05] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[14:55:07] [Server thread/INFO]: nekkan has made the advancement [Oh Shiny]
-[14:55:14] [Async Chat Thread - #3/INFO]: <nekkan> vio[m
-[14:55:14] [Async Chat Thread - #3/INFO]: <nekkan> vito[m
-[14:55:16] [Async Chat Thread - #3/INFO]: <nekkan> peguei 1 netherite scrap[m
-[14:55:17] [Server thread/INFO]: nekkan has made the advancement [Who is Cutting Onions?]
-[14:55:27] [Server thread/INFO]: Vitiinn_pup has made the advancement [Who is Cutting Onions?]
-[14:55:30] [Async Chat Thread - #3/INFO]: <Vitiinn_pup> pq tu gastou[m
-[14:55:32] [Async Chat Thread - #3/INFO]: <Vitiinn_pup> a poção[m
-[14:55:33] [Async Chat Thread - #3/INFO]: <Vitiinn_pup> doente[m
-[14:55:35] [Async Chat Thread - #3/INFO]: <nekkan> pq eu quis[m
-[14:55:40] [Server thread/INFO]: Vitiinn_pup issued server command: /effect clear
-[14:55:40] [Server thread/INFO]: [Vitiinn_pup: Removed every effect from Vitiinn_pup]
-[14:56:01] [Server thread/INFO]: nekkan has made the advancement [Suit Up]
-[14:56:14] [Async Chat Thread - #3/INFO]: <Vitiinn_pup> ceis loot tudo ja[m
-[14:56:19] [Async Chat Thread - #3/INFO]: <nekkan> eu so tenho espda fuddia[m
-[14:56:25] [Async Chat Thread - #3/INFO]: <nekkan> tem so fire aspect e ta todaastada[m
-[14:56:39] [Async Chat Thread - #3/INFO]: <Heterio> peguei espada de dima com mendings[m
-[14:56:41] [Async Chat Thread - #3/INFO]: <nekkan> boa[m
-[14:56:48] [Async Chat Thread - #3/INFO]: <Heterio> boa nada[m
-[14:56:50] [Async Chat Thread - #3/INFO]: <Vitiinn_pup> boa caralho[m
-[14:56:50] [Async Chat Thread - #3/INFO]: <Heterio> eu jogo de machado[m
-[14:56:54] [Async Chat Thread - #3/INFO]: <Vitiinn_pup> ent me da[m
-[14:56:55] [Async Chat Thread - #3/INFO]: <Heterio> ta[m
-[14:56:59] [Async Chat Thread - #3/INFO]: <Heterio> cade voce[m
-[14:57:00] [Async Chat Thread - #3/INFO]: <nekkan> vc sabe[m
-[14:57:01] [Async Chat Thread - #3/INFO]: <nekkan> q espada[m
-[14:57:02] [Async Chat Thread - #3/INFO]: <Vitiinn_pup> no centro[m
-[14:57:02] [Async Chat Thread - #3/INFO]: <nekkan> é melhor q machado ne[m
-[14:57:06] [Server thread/INFO]: Heterio hit the ground too hard
-[14:57:07] [Async Chat Thread - #3/INFO]: <Vitiinn_pup> sim eu sei[m
-[14:57:08] [Async Chat Thread - #3/INFO]: <nekkan> machado é mais lento[m
-[14:57:11] [Server thread/INFO]: Heterio issued server command: /tp Vitiinn_pup
-[14:57:11] [Server thread/INFO]: [Heterio: Teleported Heterio to Vitiinn_pup]
-[14:57:12] [Async Chat Thread - #3/INFO]: <nekkan> ent com ae espada[m
-[14:57:14] [Async Chat Thread - #3/INFO]: <nekkan> vc da mais hits por segundo[m
-[14:57:19] [Async Chat Thread - #3/INFO]: <nekkan> ent ce vai dar mais dano[m
-[14:57:32] [Server thread/INFO]: Vitiinn_pup fell from a high place
-[14:57:35] [Async Chat Thread - #3/INFO]: <Heterio> pro[m
-[14:57:37] [Server thread/INFO]: Vitiinn_pup issued server command: /tp Heterio
-[14:57:37] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to Heterio]
-[14:57:40] [Async Chat Thread - #3/INFO]: <Vitiinn_pup> era pra pegar mais vida[m
-[14:57:45] [Async Chat Thread - #3/INFO]: <nekkan> bug sdo barco eh mt bom[m
-[14:57:46] [Server thread/WARN]: nekkan was kicked for floating too long!
-[14:57:46] [Server thread/INFO]: nekkan lost connection: Flying is not enabled on this server
-[14:57:46] [Server thread/INFO]: nekkan left the game
-[14:57:48] [User Authenticator #11/INFO]: UUID of player nekkan is a26cb519-6dfb-3c83-83a7-9a9e707f61cf
-[14:57:48] [Server thread/INFO]: nekkan[/0:0:0:0:0:0:0:1%0:37008] logged in with entity id 4443 at ([world_nether]92.81220243443047, 61.5625, 58.01603852636399)
-[14:57:52] [Async Chat Thread - #3/INFO]: <nekkan> cair e entrar no barco[m
-[14:57:52] [Server thread/WARN]: nekkan was kicked for floating too long!
-[14:57:52] [Server thread/INFO]: nekkan lost connection: Flying is not enabled on this server
-[14:57:52] [Server thread/INFO]: nekkan left the game
-[14:57:53] [User Authenticator #12/INFO]: UUID of player nekkan is a26cb519-6dfb-3c83-83a7-9a9e707f61cf
-[14:57:54] [Server thread/INFO]: nekkan[/0:0:0:0:0:0:0:1%0:37340] logged in with entity id 4471 at ([world_nether]92.81220243443047, 61.5625, 58.01603852636399)
-[14:57:56] [Server thread/INFO]: nekkan issued server command: /home
-[14:57:56] [Server thread/INFO]: Vitiinn_pup was slain by Piglin Brute
-[14:57:58] [Async Chat Thread - #3/INFO]: <nekkan> MANO[m
-[14:58:00] [Server thread/INFO]: Vitiinn_pup issued server command: /tp Heterio
-[14:58:00] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to Heterio]
-[14:58:00] [Async Chat Thread - #3/INFO]: <nekkan> EU TAVA EM CIMA DE UM BARCO[m
-[14:58:03] [Async Chat Thread - #3/INFO]: <nekkan> E SENDO KICKADO POR FLY[m
-[14:58:06] [Server thread/INFO]: Vitiinn_pup issued server command: /gamemode spectator
-[14:58:06] [Server thread/INFO]: [Vitiinn_pup: Set own game mode to Spectator Mode]
-[14:58:06] [Async Chat Thread - #3/INFO]: <nekkan> SO POR TAR EM CIMA DELE[m
-[14:58:11] [Server thread/INFO]: Vitiinn_pup issued server command: /gamemode survival
-[14:58:11] [Server thread/INFO]: [Vitiinn_pup: Set own game mode to Survival Mode]
-[14:58:20] [Server thread/INFO]: nekkan issued server command: /locate fortress
-[14:58:21] [Server thread/INFO]: Vitiinn_pup was slain by Piglin Brute
-[14:58:26] [Server thread/INFO]: Vitiinn_pup issued server command: /tp Heterio
-[14:58:26] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to Heterio]
-[14:59:00] [Server thread/INFO]: Vitiinn_pup was shot by Piglin
-[14:59:06] [Async Chat Thread - #3/INFO]: <Vitiinn_pup> PUTA MERDA AAAAAAAAAAAAA[m
-[14:59:08] [Server thread/INFO]: Vitiinn_pup issued server command: /tp Heterio
-[14:59:08] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to Heterio]
-[14:59:13] [Server thread/INFO]: Vitiinn_pup was slain by Magma Cube
-[14:59:17] [Async Chat Thread - #3/INFO]: <Vitiinn_pup> eu me odeio[m
-[14:59:18] [Server thread/INFO]: Vitiinn_pup issued server command: /tp Heterio
-[14:59:18] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to Heterio]
-[14:59:22] [Server thread/INFO]: Vitiinn_pup issued server command: /tp Heterio
-[14:59:22] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to Heterio]
-[14:59:24] [Server thread/INFO]: Vitiinn_pup was slain by Magma Cube
-[14:59:24] [Server thread/INFO]: Heterio tried to swim in lava to escape Magma Cube
-[14:59:27] [Async Chat Thread - #3/INFO]: <nekkan> to no bioma azul[m
-[14:59:31] [Async Chat Thread - #3/INFO]: <Heterio> porra vitin[m
-[14:59:31] [Server thread/INFO]: Vitiinn_pup issued server command: /tp Heterio
-[14:59:31] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to Heterio]
-[14:59:34] [Server thread/INFO]: Vitiinn_pup issued server command: /tp nekkan
-[14:59:34] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to nekkan]
-[14:59:40] [Async Chat Thread - #3/INFO]: <nekkan> tem comida[m
-[14:59:42] [Async Chat Thread - #3/INFO]: <Vitiinn_pup> o nekkan voando de barco mano[m
-[14:59:43] [Async Chat Thread - #3/INFO]: <nekkan> t ocom 1 cora e meio[m
-[14:59:43] [Async Chat Thread - #3/INFO]: <Heterio> nao[m
-[14:59:46] [Async Chat Thread - #3/INFO]: <nekkan> PUTA Q PARIU[m
-[14:59:47] [Async Chat Thread - #3/INFO]: <Vitiinn_pup> n da pra jogar com ele[m
-[14:59:49] [Async Chat Thread - #3/INFO]: <nekkan> vou dar /kill entao[m
-[15:00:07] [Async Chat Thread - #3/INFO]: <nekkan> tof azendo pesquisas vitor[m
-[15:00:13] [Async Chat Thread - #3/INFO]: <Vitiinn_pup> seu cu[m
-[15:00:15] [Async Chat Thread - #3/INFO]: <nekkan> 0SJKOAHNSAUD[m
-[15:00:26] [Async Chat Thread - #3/INFO]: <nekkan> ACVHEI?[m
-[15:00:27] [Async Chat Thread - #3/INFO]: <nekkan> achei nao[m
-[15:00:32] [Async Chat Thread - #3/INFO]: <Vitiinn_pup> oq foi[m
-[15:00:37] [Async Chat Thread - #3/INFO]: <nekkan> dx pra la[m
-[15:00:50] [Server thread/INFO]: Vitiinn_pup issued server command: /tp nekkan
-[15:00:50] [Server thread/INFO]: [Vitiinn_pup: Teleported Vitiinn_pup to nekkan]
-[15:01:04] [Server thread/INFO]: nekkan issued server command: /tp Vitiinn_pup
-[15:01:04] [Server thread/INFO]: [nekkan: Teleported nekkan to Vitiinn_pup]
-[15:01:13] [Async Chat Thread - #3/INFO]: <Heterio> olha minha vida no tab[m
-[15:01:18] [Async Chat Thread - #3/INFO]: <nekkan> OLHA AM INHA[m
-[15:01:27] [Server thread/INFO]: Vitiinn_pup lost connection: Disconnected
-[15:01:27] [Server thread/INFO]: Vitiinn_pup left the game
-[15:02:17] [Server thread/INFO]: nekkan discovered the floor was lava
-[15:02:31] [Server thread/INFO]: nekkan issued server command: /execute in minecraft:the_nether run tp -123 ~ 224
-[15:02:31] [Server thread/INFO]: [nekkan: Teleported nekkan to -122.5, 64.0, 224.5]
-[15:02:44] [Server thread/INFO]: nekkan issued server command: /gamemode spectator
-[15:02:44] [Server thread/INFO]: [nekkan: Set own game mode to Spectator Mode]
-[15:02:45] [Async Chat Thread - #4/INFO]: <nekkan> namoral[m
-[15:03:00] [Server thread/INFO]: nekkan issued server command: /gamemode survival
-[15:03:00] [Server thread/INFO]: [nekkan: Set own game mode to Survival Mode]
-[15:03:31] [Server thread/INFO]: nekkan issued server command: /gamemode spectator
-[15:03:31] [Server thread/INFO]: [nekkan: Set own game mode to Spectator Mode]
-[15:03:40] [Async Chat Thread - #4/INFO]: <nekkan> ACHEI[m
-[15:03:44] [Async Chat Thread - #4/INFO]: <nekkan> achei[m
-[15:03:44] [Server thread/INFO]: nekkan issued server command: /gamemode survival
-[15:03:44] [Server thread/INFO]: [nekkan: Set own game mode to Survival Mode]
-[15:03:48] [Async Chat Thread - #4/INFO]: <Heterio> achou oq?[m
-[15:03:50] [Async Chat Thread - #4/INFO]: <nekkan> aquilo[m
-[15:03:53] [Server thread/INFO]: Heterio fell from a high place
-[15:03:58] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[15:03:58] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[15:04:01] [Server thread/INFO]: nekkan has made the advancement [A Terrible Fortress]
-[15:04:09] [Server thread/INFO]: Heterio has made the advancement [A Terrible Fortress]
-[15:04:12] [Server thread/INFO]: nekkan was fireballed by Blaze
-[15:04:16] [Async Chat Thread - #4/INFO]: <nekkan> de fude[m
-[15:04:17] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[15:04:17] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[15:04:36] [Server thread/INFO]: Heterio has made the advancement [Not Today, Thank You]
-[15:04:45] [Server thread/INFO]: nekkan has made the advancement [Into Fire]
-[15:04:48] [Async Chat Thread - #4/INFO]: <nekkan> 1 cora[m
-[15:04:51] [Async Chat Thread - #4/INFO]: <nekkan> -183 71 693[m
-[15:04:55] [Async Chat Thread - #4/INFO]: <nekkan> ME DA COMIDA[m
-[15:04:55] [Server thread/INFO]: Heterio has made the advancement [Into Fire]
-[15:05:01] [Async Chat Thread - #4/INFO]: <nekkan> to no spawner[m
-[15:05:01] [Server thread/INFO]: nekkan was fireballed by Blaze
-[15:05:02] [Async Chat Thread - #4/INFO]: <nekkan> to no spawner[m
-[15:05:02] [Async Chat Thread - #4/INFO]: <nekkan> to no spawner[m
-[15:05:09] [Server thread/INFO]: nekkan issued server command: /execute in minecraft:the_nether run tp -183 71 693
-[15:05:09] [Server thread/INFO]: [nekkan: Teleported nekkan to -182.5, 71.0, 693.5]
-[15:05:12] [Async Chat Thread - #4/INFO]: <nekkan> to no spawner[m
-[15:05:24] [Async Chat Thread - #4/INFO]: <nekkan> TEM MAIS BLAZE[m
-[15:05:25] [Async Chat Thread - #4/INFO]: <nekkan> FORA DOS PAWNER[m
-[15:05:26] [Async Chat Thread - #4/INFO]: <nekkan> DO Q NO SPAWNER[m
-[15:05:30] [Async Chat Thread - #4/INFO]: <Heterio> ss[m
-[15:05:35] [Async Chat Thread - #4/INFO]: <Heterio> morri[m
-[15:06:31] [Server thread/INFO]: nekkan was fireballed by Blaze
-[15:06:35] [Server thread/INFO]: nekkan issued server command: /execute in minecraft:the_nether run tp -183 71 693
-[15:06:35] [Server thread/INFO]: [nekkan: Teleported nekkan to -182.5, 71.0, 693.5]
-[15:06:47] [Server thread/INFO]: Heterio was slain by Wither Skeleton
-[15:06:52] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[15:06:52] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[15:07:22] [Async Chat Thread - #5/INFO]: <nekkan> to com 3 pau[m
-[15:07:26] [Async Chat Thread - #5/INFO]: <Heterio> to com 2[m
-[15:07:39] [Async Chat Thread - #5/INFO]: <nekkan> VO BUSA SNOWBALL[m
-[15:07:40] [Server thread/INFO]: nekkan issued server command: /kill
-[15:07:40] [Server thread/INFO]: nekkan fell out of the world
-[15:07:40] [Server thread/INFO]: [nekkan: Killed nekkan]
-[15:08:03] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[15:08:03] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[15:08:07] [Server thread/INFO]: Heterio has completed the challenge [Return to Sender]
-[15:08:09] [Async Chat Thread - #5/INFO]: <nekkan> boa[m
-[15:08:13] [Async Chat Thread - #5/INFO]: <nekkan> tó[m
-[15:08:36] [Server thread/INFO]: Heterio withered away
-[15:08:41] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[15:08:41] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[15:09:44] [Server thread/INFO]: Heterio was fireballed by Blaze
-[15:09:49] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[15:09:49] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[15:10:00] [Server thread/INFO]: nekkan burned to death
-[15:10:04] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[15:10:04] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[15:10:33] [Server thread/INFO]: nekkan issued server command: /g sp
-[15:10:34] [Server thread/INFO]: nekkan issued server command: /gamemode spectator
-[15:10:34] [Server thread/INFO]: [nekkan: Set own game mode to Spectator Mode]
-[15:10:37] [Server thread/INFO]: nekkan issued server command: /gamemode survival
-[15:10:37] [Server thread/INFO]: [nekkan: Set own game mode to Survival Mode]
-[15:10:39] [Async Chat Thread - #6/INFO]: <nekkan> WTF[m
-[15:10:40] [Async Chat Thread - #6/INFO]: <nekkan> O ASDKONAJILSDBHNAD[m
-[15:10:42] [Server thread/INFO]: nekkan issued server command: /difficulty
-[15:10:43] [Async Chat Thread - #6/INFO]: <nekkan> O BIXO[m
-[15:10:44] [Async Chat Thread - #6/INFO]: <nekkan> SUMIU[m
-[15:10:48] [Async Chat Thread - #6/INFO]: <nekkan> DO MUE LADO[m
-[15:11:09] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[15:11:09] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[15:11:16] [Async Chat Thread - #6/INFO]: <nekkan> a[m
-[15:11:29] [Server thread/INFO]: Heterio was slain by Blaze
-[15:11:34] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[15:11:34] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[15:11:43] [Server thread/INFO]: nekkan was burnt to a crisp whilst fighting Blaze
-[15:11:47] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[15:11:47] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[15:12:35] [Async Chat Thread - #7/INFO]: <nekkan> KKK[m
-[15:13:34] [Server thread/INFO]: nekkan withered away
-[15:13:37] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[15:13:37] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[15:13:54] [Server thread/INFO]: Heterio was fireballed by Blaze
-[15:13:59] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[15:13:59] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[15:14:03] [Async Chat Thread - #8/INFO]: <nekkan> to com 7p au[m
-[15:14:07] [Async Chat Thread - #8/INFO]: <nekkan> mais od qsuficient[m
-[15:14:09] [Async Chat Thread - #8/INFO]: <Heterio> 4[m
-[15:14:47] [Server thread/INFO]: nekkan was slain by Wither Skeleton
-[15:14:58] [Server thread/INFO]: nekkan issued server command: /execute in minecraft:the_nether run tp -212 79 696
-[15:14:58] [Server thread/INFO]: [nekkan: Teleported nekkan to -211.5, 79.0, 696.5]
-[15:15:04] [Server thread/INFO]: nekkan issued server command: /execute in minecraft:the_nether run tp -212 79 696
-[15:15:04] [Server thread/INFO]: [nekkan: Teleported nekkan to -211.5, 79.0, 696.5]
-[15:15:07] [Server thread/INFO]: nekkan issued server command: /gamemode spectator
-[15:15:07] [Server thread/INFO]: [nekkan: Set own game mode to Spectator Mode]
-[15:15:08] [Async Chat Thread - #8/INFO]: <nekkan> wetf[m
-[15:15:19] [Server thread/INFO]: Heterio issued server command: /locate bastion_remnant
-[15:15:23] [Server thread/INFO]: Heterio issued server command: /locate bastion_remnant
-[15:15:28] [Server thread/INFO]: nekkan issued server command: /gamemode survival
-[15:15:28] [Server thread/INFO]: [nekkan: Set own game mode to Survival Mode]
-[15:15:47] [Server thread/INFO]: nekkan issued server command: /g sp
-[15:15:49] [Server thread/INFO]: nekkan issued server command: /gamemode spectator
-[15:15:49] [Server thread/INFO]: [nekkan: Set own game mode to Spectator Mode]
-[15:15:55] [Server thread/INFO]: nekkan issued server command: /gamemode survival
-[15:15:55] [Server thread/INFO]: [nekkan: Set own game mode to Survival Mode]
-[15:16:03] [Server thread/INFO]: nekkan issued server command: /gamemode spectator
-[15:16:03] [Server thread/INFO]: [nekkan: Set own game mode to Spectator Mode]
-[15:16:18] [Server thread/INFO]: Heterio fell from a high place
-[15:16:22] [Server thread/INFO]: nekkan issued server command: /gamemode survival
-[15:16:22] [Server thread/INFO]: [nekkan: Set own game mode to Survival Mode]
-[15:16:35] [Server thread/INFO]: Heterio issued server command: /tp @s -608 ~ 1152
-[15:16:35] [Server thread/WARN]: Entity EntityPlayer['Heterio'/2697, l='ServerLevel[world_nether]', x=-607.50, y=52.00, z=1152.50](Heterio at -607.5,52.0,1152.5) left loaded chunk area
-[15:16:36] [Server thread/INFO]: [Heterio: Teleported Heterio to -607.5, 52.0, 1152.5]
-[15:16:43] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[15:16:43] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[15:16:44] [Server thread/INFO]: nekkan tried to swim in lava
-[15:16:47] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[15:16:47] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[15:16:55] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[15:16:55] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[15:17:04] [Server thread/INFO]: nekkan issued server command: /tp Heterio nekkan
-[15:17:04] [Server thread/INFO]: [nekkan: Teleported Heterio to nekkan]
-[15:17:05] [Server thread/INFO]: nekkan burned to death
-[15:17:05] [Async Chat Thread - #9/INFO]: <nekkan> a foi mal[m
-[15:17:09] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[15:17:09] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[15:17:22] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[15:17:22] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[15:17:23] [Async Chat Thread - #9/INFO]: <nekkan> bruh[m
-[15:17:33] [Async Chat Thread - #9/INFO]: <nekkan> morri asjishnad[m
-[15:17:34] [Server thread/INFO]: nekkan burned to death
-[15:17:38] [Server thread/INFO]: nekkan issued server command: /tp Heterio
-[15:17:38] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
-[15:17:39] [Server thread/INFO]: Heterio was slain by Hoglin
-[15:17:44] [Server thread/INFO]: Heterio issued server command: /tp nekkan
-[15:17:44] [Server thread/INFO]: [Heterio: Teleported Heterio to nekkan]
-[15:18:16] [Async Chat Thread - #9/INFO]: <nekkan> PÁ CO MFORTUAN[m
-[15:19:39] [Server thread/INFO]: nekkan was slain by Piglin Brute
-[15:19:39] [Server thread/INFO]: nekkan issued server command: /gamemode spectator
-[15:19:39] [Server thread/INFO]: [nekkan: Set own game mode to Spectator Mode]
-[15:19:59] [Server thread/INFO]: nekkan issued server command: /execute in minecraft:the_end run tp -592 ~ 1150
-[15:19:59] [Server thread/INFO]: nekkan has made the advancement [The End?]
-[15:19:59] [Server thread/INFO]: [nekkan: Teleported nekkan to -591.5, 64.0999984741211, 1150.5]
-[15:20:02] [Async Chat Thread - #10/INFO]: <nekkan> THE NND[m
-[15:20:02] [Async Chat Thread - #10/INFO]: <nekkan> PQP[m
-[15:20:02] [Async Chat Thread - #10/INFO]: <Heterio> ?[m
-[15:20:04] [Async Chat Thread - #10/INFO]: <nekkan> JNKMASDIDSHNM[m
-[15:20:06] [Async Chat Thread - #10/INFO]: <nekkan> ERA PRAIR PRO NERHTER[m
-[15:20:11] [Server thread/INFO]: nekkan issued server command: /execute in minecraft:the_nether run tp -592 ~ 1150
-[15:20:11] [Server thread/INFO]: [nekkan: Teleported nekkan to -591.5, 64.0999984741211, 1150.5]
-[15:20:11] [Async Chat Thread - #10/INFO]: <Heterio> pro[m
-[15:20:12] [Async Chat Thread - #10/INFO]: <nekkan> tae[m
-[15:20:13] [Async Chat Thread - #10/INFO]: <nekkan> ae[m
-[15:20:14] [Async Chat Thread - #10/INFO]: <nekkan> vou tirar[m
-[15:20:16] [Async Chat Thread - #10/INFO]: <nekkan> a conquista[m
-[15:20:16] [Async Chat Thread - #10/INFO]: <nekkan> do end[m
-[15:20:27] [Server thread/INFO]: nekkan issued server command: /advancement revoke nekkan only minecraft:end/root
-[15:20:27] [Server thread/INFO]: [nekkan: Revoked the advancement [The End] from nekkan]
-[15:20:28] [Async Chat Thread - #10/INFO]: <nekkan> pronto[m
-[15:20:37] [Server thread/INFO]: nekkan issued server command: /gamemode survival
-[15:20:37] [Server thread/INFO]: [nekkan: Set own game mode to Survival Mode]
-[15:20:45] [Server thread/INFO]: nekkan has made the advancement [Hidden in the Depths]
-[15:20:51] [Server thread/INFO]: nekkan has made the advancement [Ol' Betsy]
-[15:22:15] [Server thread/INFO]: nekkan issued server command: /home
-[15:22:40] [Server thread/INFO]: Heterio was slain by Piglin Brute
-[15:23:00] [Server thread/INFO]: Heterio issued server command: /tp -565 57 1156
-[15:23:00] [Server thread/WARN]: Entity EntityPlayer['Heterio'/2697, l='ServerLevel[world]', x=-564.50, y=57.00, z=1156.50](Heterio at -564.5,57.0,1156.5) left loaded chunk area
-[15:23:00] [Server thread/INFO]: [Heterio: Teleported Heterio to -564.5, 57.0, 1156.5]
-[15:23:07] [Server thread/INFO]: Heterio issued server command: /kill
-[15:23:07] [Server thread/INFO]: Heterio fell out of the world
-[15:23:07] [Server thread/INFO]: [Heterio: Killed Heterio]
-[15:23:16] [Server thread/INFO]: nekkan issued server command: /summon boat
-[15:23:16] [Server thread/INFO]: [nekkan: Summoned new Boat]
-[15:23:19] [Server thread/INFO]: Heterio issued server command: /tp -565 57 1156
-[15:23:19] [Server thread/INFO]: [Heterio: Teleported Heterio to -564.5, 57.0, 1156.5]
-[15:23:58] [Server thread/INFO]: nekkan issued server command: /give nekkan snowball 5
-[15:23:58] [Server thread/INFO]: [nekkan: Gave 5 [Snowball] to nekkan]
-[15:24:00] [Async Chat Thread - #11/INFO]: <nekkan> fzer 1 testwe[m
-[15:24:02] [Async Chat Thread - #11/INFO]: <nekkan> rapidinho[m
-[15:24:08] [Async Chat Thread - #11/INFO]: <nekkan> ue[m
-[15:24:09] [Async Chat Thread - #11/INFO]: <nekkan> n funfa?[m
-[15:24:14] [Server thread/INFO]: Heterio was slain by Piglin Brute
-[15:24:31] [Async Chat Thread - #11/INFO]: <nekkan> realment[m
-[15:24:31] [Server thread/INFO]: nekkan issued server command: /home
-[15:24:34] [Server thread/INFO]: Heterio issued server command: /tp -565 57 1156
-[15:24:34] [Server thread/INFO]: [Heterio: Teleported Heterio to -564.5, 57.0, 1156.5]
-[15:25:22] [Server thread/WARN]: Boat (vehicle of nekkan) moved wrongly! 0.3059114033728747
-[15:25:22] [Server thread/WARN]: Boat (vehicle of nekkan) moved wrongly! 0.5678420112744789
-[15:25:22] [Server thread/WARN]: Boat (vehicle of nekkan) moved wrongly! 0.5678420112744789
-[15:25:22] [Server thread/WARN]: Boat (vehicle of nekkan) moved wrongly! 0.5678420112744789
-[15:25:22] [Server thread/WARN]: Boat (vehicle of nekkan) moved wrongly! 0.5178420129107053
-[15:25:22] [Server thread/WARN]: Boat (vehicle of nekkan) moved wrongly! 0.5178420129107053
-[15:25:22] [Server thread/WARN]: Boat (vehicle of nekkan) moved wrongly! 0.42234201546193617
-[15:25:22] [Server thread/WARN]: Boat (vehicle of nekkan) moved wrongly! 0.42234201546193617
-[15:25:25] [Server thread/INFO]: nekkan issued server command: /kill
-[15:25:25] [Server thread/INFO]: nekkan didn't want to live in the same world as Ghast
-[15:25:25] [Server thread/INFO]: [nekkan: Killed nekkan]
-[15:25:34] [Async Chat Thread - #12/INFO]: <nekkan> vo vaza[m
-[15:25:35] [Async Chat Thread - #12/INFO]: <nekkan> flw[m
-[15:25:40] [Async Chat Thread - #12/INFO]: <nekkan> qr q eu deixe os v aberto?[m
-[15:25:43] [Async Chat Thread - #12/INFO]: <Heterio> nao[m
-[15:25:44] [Server thread/INFO]: Heterio lost connection: Disconnected
-[15:25:44] [Server thread/INFO]: Heterio left the game
-[15:25:44] [Server thread/INFO]: Saving the game (this may take a moment!)
-[15:25:44] [Server thread/INFO]: Saved the game
-[15:25:46] [Server thread/INFO]: nekkan lost connection: Disconnected
-[15:25:46] [Server thread/INFO]: nekkan left the game
-[15:25:51] [Server thread/INFO]: Stopping the server
-[15:25:51] [Server thread/INFO]: Stopping server
-[15:25:51] [Server thread/INFO]: [ProjectileKnockback] Disabling ProjectileKnockback v1.8
-[15:25:51] [Server thread/INFO]: [ProjectileKnockback] This plugin has been disabled!
-[15:25:51] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.8.7-SNAPSHOT
-[15:25:51] [Server thread/INFO]: [CrackShot] Disabling CrackShot v0.98.11
-[15:25:51] [Server thread/INFO]: Saving players
-[15:25:51] [Server thread/INFO]: Saving worlds
-[15:25:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:25:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:25:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[15:26:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:26:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[15:26:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:26:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:26:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:26:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:08:44] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:08:45] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[12:08:46] [Worker-Main-9/INFO]: Loaded 7 recipes
+[12:08:49] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[12:08:49] [Server thread/INFO]: Loading properties
+[12:08:49] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-37d799b-3eb7236 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[12:08:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:08:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:08:50] [Server thread/INFO]: Debug logging is disabled
+[12:08:50] [Server thread/INFO]: Default game type: SURVIVAL
+[12:08:50] [Server thread/INFO]: Generating keypair
+[12:08:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:08:50] [Server thread/INFO]: Using epoll channel type
+[12:08:51] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[12:08:57] [Server thread/WARN]: Legacy plugin ProjectileKnockback v1.8 does not specify an api-version.
+[12:08:57] [Server thread/INFO]: [CrackShot] Loading CrackShot v0.98.11
+[12:08:57] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.8.7-SNAPSHOT
+[12:08:57] [Server thread/INFO]: [ProjectileKnockback] Loading ProjectileKnockback v1.8
+[12:08:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:08:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:08:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:08:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:08:57] [Server thread/INFO]: Preparing level "world"
+[12:08:58] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:08:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:08:58] [Server thread/INFO]: Mob Spawn Range: 6
+[12:08:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:08:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:08:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:08:58] [Server thread/INFO]: Max TNT Explosions: 100
+[12:08:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:08:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:08:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:08:58] [Server thread/INFO]: View Distance: 10
+[12:08:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:08:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:08:58] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:08:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:08:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:08:58] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:08:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:08:58] [Server thread/INFO]: Mob Spawn Range: 6
+[12:08:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:08:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:08:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:08:58] [Server thread/INFO]: Max TNT Explosions: 100
+[12:08:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:08:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:08:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:08:58] [Server thread/INFO]: View Distance: 10
+[12:08:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:08:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:08:58] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:08:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:08:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:08:58] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:08:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:08:58] [Server thread/INFO]: Mob Spawn Range: 6
+[12:08:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:08:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:08:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:08:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:08:58] [Server thread/INFO]: Max TNT Explosions: 100
+[12:08:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:08:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:08:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:08:58] [Server thread/INFO]: View Distance: 10
+[12:08:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:08:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:08:58] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:08:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:08:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:08:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:09:00] [Server thread/INFO]: Preparing spawn area: 0%
+[12:09:00] [Server thread/INFO]: Preparing spawn area: 0%
+[12:09:00] [Server thread/INFO]: Preparing spawn area: 0%
+[12:09:00] [Server thread/INFO]: Preparing spawn area: 0%
+[12:09:00] [Server thread/INFO]: Preparing spawn area: 0%
+[12:09:01] [Server thread/INFO]: Preparing spawn area: 5%
+[12:09:01] [Server thread/INFO]: Time elapsed: 3110 ms
+[12:09:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:09:03] [Server thread/INFO]: Preparing spawn area: 0%
+[12:09:03] [Server thread/INFO]: Preparing spawn area: 0%
+[12:09:03] [Server thread/INFO]: Preparing spawn area: 0%
+[12:09:03] [Server thread/INFO]: Preparing spawn area: 0%
+[12:09:03] [Server thread/INFO]: Preparing spawn area: 0%
+[12:09:03] [Server thread/INFO]: Time elapsed: 2418 ms
+[12:09:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:09:04] [Server thread/INFO]: Preparing spawn area: 0%
+[12:09:04] [Server thread/INFO]: Preparing spawn area: 0%
+[12:09:04] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[12:09:05] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[12:09:05] [Worker-Main-6/INFO]: Preparing spawn area: 87%
+[12:09:06] [Server thread/INFO]: Time elapsed: 2498 ms
+[12:09:06] [Server thread/INFO]: [CrackShot] Enabling CrackShot v0.98.11
+[12:09:06] [Server thread/INFO]: [CrackShot] Gun-mode activated. Boop!
+[12:09:06] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.8.7-SNAPSHOT
+[12:09:06] [Server thread/INFO]: [SkinsRestorer] Failed PaperSkinRefresher
+[12:09:06] [Server thread/INFO]: [SkinsRestorer] Using SpigotSkinRefresher
+[12:09:06] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_16_R3[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+[12:09:09] [Server thread/INFO]: [ProjectileKnockback] Enabling ProjectileKnockback v1.8
+[12:09:09] [Server thread/INFO]: [ProjectileKnockback] This plugin has been enabled!
+[12:09:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:09:09] [Server thread/INFO]: Done (11.996s)! For help, type "help"
+[12:09:10] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[12:09:10] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[12:09:10] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+[12:09:10] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    |---------------|[m
+[12:09:10] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    |   [0;34;1m[4m[21mBukkit only[0;32;1m |[m
+[12:09:10] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[12:09:10] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[12:09:10] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.8.7-SNAPSHOT[m
+[12:09:10] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
+[12:09:10] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[12:11:05] [User Authenticator #1/INFO]: UUID of player nekkan is a26cb519-6dfb-3c83-83a7-9a9e707f61cf
+[12:11:06] [Server thread/INFO]: nekkan[/0:0:0:0:0:0:0:1%0:59900] logged in with entity id 201 at ([world]52.30000001192093, 66.0, -252.97871103360407)
+[12:11:23] [Server thread/INFO]: nekkan issued server command: /kiill
+[12:11:37] [Server thread/INFO]: nekkan issued server command: /kill
+[12:11:37] [Server thread/INFO]: nekkan fell out of the world
+[12:11:37] [Server thread/INFO]: [nekkan: Killed nekkan]
+[12:14:57] [Server thread/INFO]: nekkan issued server command: /gamemode spectator
+[12:14:57] [Server thread/INFO]: [nekkan: Set own game mode to Spectator Mode]
+[12:15:05] [Server thread/INFO]: nekkan issued server command: /gamemode survival
+[12:15:05] [Server thread/INFO]: [nekkan: Set own game mode to Survival Mode]
+[12:16:06] [Async Chat Thread - #0/INFO]: <nekkan> a[m
+[12:16:10] [Server thread/WARN]: nekkan was kicked for floating too long!
+[12:16:10] [Server thread/INFO]: nekkan lost connection: Flying is not enabled on this server
+[12:16:10] [Server thread/INFO]: nekkan left the game
+[12:17:13] [Thread-2/INFO]: Stopping server
