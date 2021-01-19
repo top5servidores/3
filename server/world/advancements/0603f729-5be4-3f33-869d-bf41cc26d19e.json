@@ -265,6 +265,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2021-01-19 14:58:33 +0000",
       "beef": "2021-01-19 12:54:57 +0000",
       "bread": "2021-01-19 13:06:57 +0000",
       "rotten_flesh": "2021-01-19 12:54:22 +0000",
@@ -692,6 +693,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2021-01-19 13:02:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2021-01-19 15:02:24 +0000"
     },
     "done": true
   },

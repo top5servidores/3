@@ -554,6 +554,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_double_plant": "2021-01-19 14:29:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2021-01-19 12:39:50 +0000"
@@ -1388,6 +1394,8 @@
       "minecraft:forest": "2021-01-19 12:21:14 +0000",
       "minecraft:mountains": "2021-01-19 12:26:03 +0000",
       "minecraft:taiga": "2021-01-19 12:47:15 +0000",
+      "minecraft:desert": "2021-01-19 14:28:21 +0000",
+      "minecraft:badlands": "2021-01-19 14:28:23 +0000",
       "minecraft:beach": "2021-01-19 12:23:30 +0000",
       "minecraft:river": "2021-01-19 12:23:36 +0000",
       "minecraft:wooded_mountains": "2021-01-19 12:45:45 +0000",
@@ -1455,15 +1463,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_purple_dye": "2021-01-19 14:23:41 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/purple_dye": {
     "criteria": {
       "has_blue_dye": "2021-01-19 14:23:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_purple_dye": "2021-01-19 14:23:41 +0000"
     },
     "done": true
   },
