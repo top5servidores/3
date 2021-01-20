@@ -1,4 +1,4 @@
 .idea/*
 !.idea/discord.xml
 ngrok-minecraft-server.iml
-logs/*
+logs/
