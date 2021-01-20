@@ -1,0 +1,37 @@
+no-permissions: '&4No permissions'
+ping-command: '&7Your ping is: &a%ping% ms'
+pingother-command: '&7Ping of %player% is: &a%ping% ms'
+time-to-check: 5
+join-message: '&cThis server have ping protection, if you pass &4%maxping% &cbe kicked'
+Warns:
+  '2000':
+    Kick: true
+    KickMessage: '&c&lAlertPing%nextline% %nextline% &4You pass 2000 ping, please
+      check your connection!'
+    InformStaff: true
+    InformMessage: '&eThe player &6%player% &eexceeded the ping 2000 and will be kicked
+      &7(&c%ping%&7)'
+  '1500':
+    InformStaff: true
+    InformConsole: true
+    InformMessage: '&eThe player &6%player% &eexceeded the ping 1500 &7(&c%ping%&7)'
+    Message:
+    - '&7&m-------&4&l ALERT &7&m-------'
+    - '&cYour ping exceeds &a1500 ms'
+    - '&cPlease check your internet connection!'
+    - '&cWe informed the staff about your bad connection'
+    - '&7&m-----&e Ping: &a%ping% ms &7&m----'
+  '1000':
+    InformConsole: true
+    InformMessage: '&eThe player &6%player% &eexceeded the ping 1000 &7(&c%ping%&7)'
+    Message:
+    - '&7&m-------&4&l ALERT &7&m-------'
+    - '&cYour ping exceeds &a1000 ms'
+    - '&cPlease check your internet connection!'
+    - '&7&m-----&e Ping: &a%ping% ms &7&m----'
+  '500':
+    Message:
+    - '&7&m-------&4&l ATTENTION &7&m-------'
+    - '&cYour ping exceeds &a500 ms'
+    - '&cPlease check your internet connection!'
+    - '&7&m-----&e Ping: &a%ping% ms &7&m----'
