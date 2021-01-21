@@ -17,13 +17,16 @@ fi
 
 source "$ROOT_NMS/scripts/environment"
 
+git add .
+AUTO_SAVE_NUMBER=$(git rev-list --all --count)
+
 case "${properties[push]}" in
   true)
-    git add .
-    AUTO_SAVE_NUMBER=$(git rev-list --all --count)
     git commit -m "Auto-save #$AUTO_SAVE_NUMBER"
-    git push origin main;;
+    git push origin +main
+    ;;
   *)
     echo "INFO: Cancelling Git push due to environment.properties."
-    exit 1;;
+    exit 1
+    ;;
 esac
