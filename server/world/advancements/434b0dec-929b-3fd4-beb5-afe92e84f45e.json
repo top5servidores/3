@@ -958,6 +958,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2021-01-23 15:21:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
       "has_book": "2021-01-20 16:43:39 +0000"
@@ -1170,6 +1176,7 @@
       "minecraft:jungle_hills": "2021-01-20 15:26:47 +0000",
       "minecraft:badlands": "2021-01-19 14:28:23 +0000",
       "minecraft:beach": "2021-01-19 12:23:30 +0000",
+      "minecraft:dark_forest": "2021-01-23 15:44:03 +0000",
       "minecraft:river": "2021-01-19 12:23:36 +0000",
       "minecraft:wooded_mountains": "2021-01-19 12:45:45 +0000",
       "minecraft:wooded_hills": "2021-01-20 15:17:48 +0000",
@@ -2755,6 +2762,12 @@
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2021-01-19 13:45:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2021-01-23 15:21:08 +0000"
     },
     "done": true
   },
