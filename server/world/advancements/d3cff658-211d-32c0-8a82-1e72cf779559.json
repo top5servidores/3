@@ -883,6 +883,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2021-01-24 20:54:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_gravel": "2021-01-23 15:11:16 +0000"
@@ -1262,6 +1268,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2021-01-24 20:54:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2021-01-24 14:50:59 +0000"
@@ -1409,6 +1421,12 @@
   "minecraft:recipes/decorations/black_carpet": {
     "criteria": {
       "has_black_wool": "2021-01-24 13:22:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2021-01-24 20:57:49 +0000"
     },
     "done": true
   },
@@ -1643,6 +1661,12 @@
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2021-01-23 14:37:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2021-01-24 20:54:32 +0000"
     },
     "done": true
   },
@@ -2049,6 +2073,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "salmon": "2021-01-24 20:54:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2021-01-23 15:40:31 +0000"
@@ -2123,7 +2153,8 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
-      "textures/entity/cat/british_shorthair.png": "2021-01-23 16:19:37 +0000"
+      "textures/entity/cat/british_shorthair.png": "2021-01-23 16:19:37 +0000",
+      "textures/entity/cat/red.png": "2021-01-24 20:56:05 +0000"
     },
     "done": false
   },
