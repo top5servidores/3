@@ -245,6 +245,12 @@
     },
     "done": true
   },
+  "minecraft:nether/distract_piglin": {
+    "criteria": {
+      "distract_piglin": "2021-01-24 14:51:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2021-01-20 15:35:06 +0000"
@@ -362,6 +368,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2021-01-20 16:55:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2021-01-24 14:42:54 +0000"
     },
     "done": true
   },
@@ -644,16 +656,21 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2021-01-19 13:01:27 +0000",
+      "minecraft:pillager": "2021-01-24 14:31:56 +0000",
       "minecraft:skeleton": "2021-01-19 12:37:08 +0000",
+      "minecraft:ravager": "2021-01-24 15:04:07 +0000",
       "minecraft:ghast": "2021-01-23 20:59:11 +0000",
       "minecraft:hoglin": "2021-01-20 16:53:41 +0000",
+      "minecraft:vindicator": "2021-01-24 14:59:56 +0000",
       "minecraft:magma_cube": "2021-01-19 13:14:13 +0000",
       "minecraft:spider": "2021-01-19 13:35:24 +0000",
       "minecraft:creeper": "2021-01-19 12:41:56 +0000",
+      "minecraft:witch": "2021-01-24 15:04:42 +0000",
       "minecraft:wither_skeleton": "2021-01-19 13:01:56 +0000",
       "minecraft:shulker": "2021-01-23 12:38:14 +0000",
       "minecraft:piglin": "2021-01-21 15:40:43 +0000",
       "minecraft:enderman": "2021-01-19 14:09:00 +0000",
+      "minecraft:vex": "2021-01-24 15:10:27 +0000",
       "minecraft:zombie": "2021-01-19 12:39:44 +0000",
       "minecraft:drowned": "2021-01-23 13:15:58 +0000"
     },
@@ -725,6 +742,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2021-01-24 14:13:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_fence_gate": {
     "criteria": {
       "has_planks": "2021-01-23 14:45:30 +0000"
@@ -740,6 +763,12 @@
   "minecraft:recipes/food/cooked_mutton_from_smoking": {
     "criteria": {
       "has_mutton": "2021-01-20 15:23:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2021-01-24 14:32:21 +0000"
     },
     "done": true
   },
@@ -896,6 +925,12 @@
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2021-01-19 12:40:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2021-01-24 14:28:56 +0000"
     },
     "done": true
   },
@@ -1139,6 +1174,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2021-01-24 15:12:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2021-01-20 16:55:35 +0000"
@@ -1249,6 +1290,7 @@
       "minecraft:taiga": "2021-01-19 12:47:15 +0000",
       "minecraft:desert_hills": "2021-01-21 16:05:51 +0000",
       "minecraft:deep_cold_ocean": "2021-01-21 16:16:59 +0000",
+      "minecraft:taiga_hills": "2021-01-24 14:20:20 +0000",
       "minecraft:desert": "2021-01-19 14:28:21 +0000",
       "minecraft:jungle": "2021-01-20 15:26:41 +0000",
       "minecraft:birch_forest": "2021-01-21 15:52:13 +0000",
@@ -1514,6 +1556,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2021-01-24 14:13:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_wool": {
     "criteria": {
       "has_white_wool": "2021-01-19 12:44:21 +0000"
@@ -1631,6 +1679,12 @@
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_stick": "2021-01-19 12:22:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2021-01-24 15:11:52 +0000"
     },
     "done": true
   },
@@ -1823,6 +1877,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2021-01-21 15:34:30 +0000",
+      "cooked_mutton": "2021-01-24 14:20:56 +0000",
       "cooked_beef": "2021-01-19 12:43:48 +0000",
       "chorus_fruit": "2021-01-23 12:41:27 +0000",
       "apple": "2021-01-19 13:48:54 +0000",
@@ -1830,6 +1885,7 @@
       "bread": "2021-01-19 13:45:48 +0000",
       "golden_apple": "2021-01-21 14:40:36 +0000",
       "rotten_flesh": "2021-01-19 14:15:35 +0000",
+      "salmon": "2021-01-24 14:28:59 +0000",
       "golden_carrot": "2021-01-20 16:51:02 +0000",
       "cooked_chicken": "2021-01-23 13:19:32 +0000",
       "carrot": "2021-01-23 14:11:02 +0000"
@@ -1995,6 +2051,12 @@
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2021-01-19 12:42:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2021-01-24 14:13:15 +0000"
     },
     "done": true
   },
@@ -2226,6 +2288,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2021-01-24 14:28:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/item_frame": {
     "criteria": {
       "has_leather": "2021-01-19 12:22:58 +0000"
@@ -2295,6 +2363,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2021-01-19 13:35:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/whos_the_pillager_now": {
+    "criteria": {
+      "kill_pillager": "2021-01-24 14:35:25 +0000"
     },
     "done": true
   },
@@ -2730,6 +2804,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2021-01-24 14:28:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2021-01-19 12:21:59 +0000"
@@ -2826,6 +2906,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2021-01-24 14:35:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_stone": "2021-01-19 12:28:52 +0000"
@@ -2859,6 +2945,12 @@
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2021-01-19 12:30:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2021-01-24 14:06:55 +0000"
     },
     "done": true
   },
