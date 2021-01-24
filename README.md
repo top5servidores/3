@@ -5,4 +5,5 @@
 # Coordinates
 
 **Mob Trap:** `204 64 -25`
+
 **Spawn:** `-415 89 123`
