@@ -676,6 +676,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
+    "criteria": {
+      "has_brown_terracotta": "2021-01-24 16:03:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/ender_eye": {
     "criteria": {
       "has_blaze_powder": "2021-01-21 14:41:46 +0000"
@@ -1301,6 +1307,8 @@
       "minecraft:river": "2021-01-19 12:23:36 +0000",
       "minecraft:wooded_mountains": "2021-01-19 12:45:45 +0000",
       "minecraft:wooded_hills": "2021-01-20 15:17:48 +0000",
+      "minecraft:stone_shore": "2021-01-24 16:27:43 +0000",
+      "minecraft:swamp": "2021-01-24 16:29:18 +0000",
       "minecraft:savanna": "2021-01-21 15:55:02 +0000",
       "minecraft:plains": "2021-01-19 12:22:57 +0000"
     },
@@ -2098,6 +2106,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:sheep": "2021-01-24 16:31:13 +0000",
       "minecraft:wolf": "2021-01-19 14:20:28 +0000"
     },
     "done": false
