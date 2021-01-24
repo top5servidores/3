@@ -71,6 +71,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 21:22:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_gravel": "2021-01-23 15:11:16 +0000"
@@ -643,6 +649,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 21:22:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2021-01-23 16:16:21 +0000"
@@ -733,6 +745,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/andesite_stairs": {
+    "criteria": {
+      "has_andesite": "2021-01-24 21:22:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/orange_wool": {
     "criteria": {
       "has_white_wool": "2021-01-23 16:08:51 +0000"
@@ -805,6 +823,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 21:22:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_gravel": "2021-01-23 15:11:16 +0000"
@@ -814,6 +838,12 @@
   "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
       "has_obsidian": "2021-01-23 15:32:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 21:22:18 +0000"
     },
     "done": true
   },
@@ -1424,6 +1454,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 21:22:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2021-01-24 20:57:49 +0000"
@@ -1838,6 +1874,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_stone": "2021-01-24 21:22:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_pressure_plate": {
     "criteria": {
       "has_planks": "2021-01-24 13:19:42 +0000"
@@ -2067,6 +2109,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 21:22:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
     "criteria": {
       "has_end_stone_brick": "2021-01-23 14:26:15 +0000"
@@ -2218,6 +2266,18 @@
   "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_light_blue_dye": "2021-01-23 16:19:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall": {
+    "criteria": {
+      "has_andesite": "2021-01-24 21:22:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab": {
+    "criteria": {
+      "has_andesite": "2021-01-24 21:22:18 +0000"
     },
     "done": true
   },

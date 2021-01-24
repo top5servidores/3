@@ -377,6 +377,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2021-01-24 21:30:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2021-01-19 12:30:33 +0000"
@@ -560,6 +566,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2021-01-19 12:22:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2021-01-24 21:30:27 +0000"
     },
     "done": true
   },
@@ -1517,6 +1529,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2021-01-24 21:30:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis": "2021-01-19 14:04:00 +0000"
@@ -1671,6 +1689,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2021-01-24 21:15:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2021-01-19 12:22:14 +0000"
@@ -1734,6 +1758,12 @@
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2021-01-20 16:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2021-01-24 21:15:15 +0000"
     },
     "done": true
   },
@@ -1955,6 +1985,7 @@
       "cookie": "2021-01-24 21:10:10 +0000",
       "salmon": "2021-01-24 14:28:59 +0000",
       "golden_carrot": "2021-01-20 16:51:02 +0000",
+      "cooked_rabbit": "2021-01-24 21:15:19 +0000",
       "cooked_chicken": "2021-01-23 13:19:32 +0000",
       "cooked_salmon": "2021-01-24 20:47:09 +0000",
       "carrot": "2021-01-23 14:11:02 +0000"

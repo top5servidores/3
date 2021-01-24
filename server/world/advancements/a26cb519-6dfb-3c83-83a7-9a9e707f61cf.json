@@ -2235,6 +2235,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:pig": "2021-01-24 21:41:35 +0000",
       "minecraft:sheep": "2021-01-23 15:00:53 +0000",
       "minecraft:wolf": "2021-01-20 06:22:47 +0000"
     },
