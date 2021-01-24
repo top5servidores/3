@@ -870,6 +870,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2021-01-24 22:55:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/coal_from_blasting": {
     "criteria": {
       "has_coal_ore": "2021-01-20 15:35:27 +0000"
@@ -1349,6 +1355,7 @@
       "minecraft:cold_ocean": "2021-01-20 15:26:20 +0000",
       "minecraft:forest": "2021-01-19 12:21:14 +0000",
       "minecraft:mountains": "2021-01-19 12:26:03 +0000",
+      "minecraft:badlands_plateau": "2021-01-24 23:13:50 +0000",
       "minecraft:taiga": "2021-01-19 12:47:15 +0000",
       "minecraft:desert_hills": "2021-01-21 16:05:51 +0000",
       "minecraft:deep_cold_ocean": "2021-01-21 16:16:59 +0000",
@@ -1360,11 +1367,13 @@
       "minecraft:birch_forest": "2021-01-21 15:52:13 +0000",
       "minecraft:jungle_hills": "2021-01-20 15:26:47 +0000",
       "minecraft:snowy_beach": "2021-01-24 17:03:00 +0000",
+      "minecraft:bamboo_jungle": "2021-01-24 23:14:11 +0000",
       "minecraft:badlands": "2021-01-19 14:28:23 +0000",
       "minecraft:beach": "2021-01-19 12:23:30 +0000",
       "minecraft:dark_forest": "2021-01-23 15:44:03 +0000",
       "minecraft:river": "2021-01-19 12:23:36 +0000",
       "minecraft:wooded_mountains": "2021-01-19 12:45:45 +0000",
+      "minecraft:bamboo_jungle_hills": "2021-01-24 23:14:25 +0000",
       "minecraft:wooded_hills": "2021-01-20 15:17:48 +0000",
       "minecraft:stone_shore": "2021-01-24 16:27:43 +0000",
       "minecraft:swamp": "2021-01-24 16:29:18 +0000",
@@ -1562,6 +1571,12 @@
   "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_orange_dye": "2021-01-23 21:06:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2021-01-24 22:55:20 +0000"
     },
     "done": true
   },
@@ -1989,6 +2004,7 @@
       "cooked_mutton": "2021-01-24 14:20:56 +0000",
       "cooked_beef": "2021-01-19 12:43:48 +0000",
       "chorus_fruit": "2021-01-23 12:41:27 +0000",
+      "beef": "2021-01-24 23:14:49 +0000",
       "apple": "2021-01-19 13:48:54 +0000",
       "pumpkin_pie": "2021-01-24 22:34:48 +0000",
       "mutton": "2021-01-20 15:25:55 +0000",
@@ -2000,6 +2016,7 @@
       "golden_carrot": "2021-01-20 16:51:02 +0000",
       "cooked_rabbit": "2021-01-24 21:15:19 +0000",
       "cooked_chicken": "2021-01-23 13:19:32 +0000",
+      "cod": "2021-01-24 23:03:07 +0000",
       "cooked_salmon": "2021-01-24 20:47:09 +0000",
       "carrot": "2021-01-23 14:11:02 +0000"
     },
@@ -2020,6 +2037,12 @@
   "minecraft:recipes/tools/netherite_pickaxe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2021-01-21 15:50:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2021-01-24 22:55:20 +0000"
     },
     "done": true
   },
