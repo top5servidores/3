@@ -1662,6 +1662,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2021-01-24 16:50:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_terracotta": {
     "criteria": {
       "has_terracotta": "2021-01-20 15:39:05 +0000"
@@ -1725,6 +1731,12 @@
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2021-01-19 12:31:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2021-01-24 16:50:13 +0000"
     },
     "done": true
   },
@@ -1952,6 +1964,7 @@
       "golden_apple": "2021-01-19 14:54:23 +0000",
       "beetroot": "2021-01-20 12:12:51 +0000",
       "golden_carrot": "2021-01-23 11:16:28 +0000",
+      "cooked_rabbit": "2021-01-24 16:56:08 +0000",
       "cooked_chicken": "2021-01-20 16:50:55 +0000",
       "cooked_salmon": "2021-01-23 14:22:55 +0000",
       "carrot": "2021-01-23 20:35:43 +0000"
@@ -3048,6 +3061,12 @@
   "minecraft:nether/loot_bastion": {
     "criteria": {
       "loot_bastion_hoglin_stable": "2021-01-21 15:35:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2021-01-24 16:53:27 +0000"
     },
     "done": true
   },
