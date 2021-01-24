@@ -107,6 +107,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2021-01-24 22:17:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
     "criteria": {
       "has_polished_blackstone_bricks": "2021-01-21 14:20:59 +0000"
@@ -146,6 +152,12 @@
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2021-01-19 12:22:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2021-01-24 22:21:01 +0000"
     },
     "done": true
   },
@@ -1978,6 +1990,7 @@
       "cooked_beef": "2021-01-19 12:43:48 +0000",
       "chorus_fruit": "2021-01-23 12:41:27 +0000",
       "apple": "2021-01-19 13:48:54 +0000",
+      "pumpkin_pie": "2021-01-24 22:34:48 +0000",
       "mutton": "2021-01-20 15:25:55 +0000",
       "bread": "2021-01-19 13:45:48 +0000",
       "golden_apple": "2021-01-21 14:40:36 +0000",
