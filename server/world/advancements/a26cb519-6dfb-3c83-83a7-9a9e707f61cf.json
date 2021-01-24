@@ -329,6 +329,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2021-01-24 19:57:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
       "has_gold_nugget": "2021-01-21 15:36:12 +0000"
@@ -350,6 +356,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2021-01-21 16:55:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2021-01-24 19:32:22 +0000"
     },
     "done": true
   },
@@ -410,6 +422,18 @@
   "minecraft:recipes/redstone/lectern": {
     "criteria": {
       "has_book": "2021-01-19 12:59:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2021-01-24 20:01:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2021-01-24 19:57:32 +0000"
     },
     "done": true
   },
@@ -521,6 +545,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2021-01-24 19:32:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/netherite_block": {
     "criteria": {
       "has_netherite_ingot": "2021-01-23 15:20:26 +0000"
@@ -560,6 +590,12 @@
   "minecraft:recipes/decorations/light_blue_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2021-01-20 07:41:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2021-01-24 19:57:32 +0000"
     },
     "done": true
   },
@@ -644,6 +680,7 @@
       "minecraft:zombified_piglin": "2021-01-20 06:38:05 +0000",
       "minecraft:witch": "2021-01-24 15:04:44 +0000",
       "minecraft:wither_skeleton": "2021-01-20 12:37:02 +0000",
+      "minecraft:husk": "2021-01-24 20:39:06 +0000",
       "minecraft:ender_dragon": "2021-01-23 11:25:50 +0000",
       "minecraft:shulker": "2021-01-23 11:27:54 +0000",
       "minecraft:cave_spider": "2021-01-20 12:27:48 +0000",
@@ -755,6 +792,12 @@
   "minecraft:recipes/building_blocks/cracked_nether_bricks": {
     "criteria": {
       "has_nether_bricks": "2021-01-20 12:33:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2021-01-24 19:57:32 +0000"
     },
     "done": true
   },
@@ -1142,6 +1185,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2021-01-24 19:54:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2021-01-24 16:15:51 +0000"
@@ -1199,6 +1248,12 @@
   "minecraft:recipes/decorations/cartography_table": {
     "criteria": {
       "has_paper": "2021-01-19 12:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2021-01-24 20:01:06 +0000"
     },
     "done": true
   },
@@ -1292,6 +1347,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2021-01-24 20:01:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_nether_bricks": {
     "criteria": {
       "has_nether_bricks": "2021-01-20 12:33:58 +0000"
@@ -1371,6 +1432,7 @@
       "minecraft:forest": "2021-01-19 12:20:30 +0000",
       "minecraft:mountains": "2021-01-19 12:24:20 +0000",
       "minecraft:taiga": "2021-01-19 13:05:52 +0000",
+      "minecraft:deep_cold_ocean": "2021-01-24 19:39:20 +0000",
       "minecraft:snowy_tundra": "2021-01-23 11:49:42 +0000",
       "minecraft:desert": "2021-01-20 15:38:24 +0000",
       "minecraft:frozen_river": "2021-01-23 11:50:39 +0000",
@@ -1537,6 +1599,12 @@
   "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2021-01-24 13:44:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2021-01-24 19:32:22 +0000"
     },
     "done": true
   },
@@ -2081,6 +2149,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2021-01-24 20:01:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2021-01-19 12:31:08 +0000"
@@ -2181,6 +2255,12 @@
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2021-01-19 12:39:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2021-01-24 19:57:32 +0000"
     },
     "done": true
   },
@@ -2808,6 +2888,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2021-01-24 19:54:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/netherite_axe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2021-01-23 15:20:26 +0000"
@@ -2835,6 +2921,12 @@
   "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2021-01-21 16:55:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2021-01-24 19:57:32 +0000"
     },
     "done": true
   },
@@ -2931,6 +3023,12 @@
   "minecraft:recipes/decorations/lodestone": {
     "criteria": {
       "has_netherite_ingot": "2021-01-23 15:20:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2021-01-24 19:52:38 +0000"
     },
     "done": true
   },

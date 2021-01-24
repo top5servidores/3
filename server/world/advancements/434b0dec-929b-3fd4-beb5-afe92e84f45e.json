@@ -673,6 +673,7 @@
       "minecraft:creeper": "2021-01-19 12:41:56 +0000",
       "minecraft:witch": "2021-01-24 15:04:42 +0000",
       "minecraft:wither_skeleton": "2021-01-19 13:01:56 +0000",
+      "minecraft:husk": "2021-01-24 20:38:39 +0000",
       "minecraft:shulker": "2021-01-23 12:38:14 +0000",
       "minecraft:piglin": "2021-01-21 15:40:43 +0000",
       "minecraft:enderman": "2021-01-19 14:09:00 +0000",
@@ -877,6 +878,12 @@
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2021-01-20 16:54:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2021-01-24 20:37:21 +0000"
     },
     "done": true
   },
@@ -1479,6 +1486,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2021-01-24 20:41:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_stained_glass": {
     "criteria": {
       "has_glass": "2021-01-23 21:11:22 +0000"
@@ -1941,6 +1954,7 @@
       "salmon": "2021-01-24 14:28:59 +0000",
       "golden_carrot": "2021-01-20 16:51:02 +0000",
       "cooked_chicken": "2021-01-23 13:19:32 +0000",
+      "cooked_salmon": "2021-01-24 20:47:09 +0000",
       "carrot": "2021-01-23 14:11:02 +0000"
     },
     "done": false
@@ -2396,6 +2410,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2021-01-24 20:37:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
       "has_glowstone_dust": "2021-01-23 21:10:59 +0000"
@@ -2447,6 +2467,12 @@
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2021-01-19 12:29:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2021-01-24 20:37:21 +0000"
     },
     "done": true
   },
