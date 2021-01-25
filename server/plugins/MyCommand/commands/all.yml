@@ -1,0 +1,44 @@
+gamemode_alias:
+  command: /gm
+  type: ALIAS
+  alias: /gamemode
+  register: true
+  permission-required: false
+localizacoes:
+  command: /coords 
+  type: RAW_TEXT
+  text:
+  - '&eCoordenadas de cada construção do mapa:'
+  - '$RUN_COMMAND$&f&oSpawn&r &eestá localizado em &f&o-415 89 123;&7Clique para se teleportar;/tp $player -415 89 123'
+  - '$RUN_COMMAND$&f&oMob Trap&r &eestá localizada em &f&o204 64 -25;&7Clique para se teleportar;/tp $player 204 64 -25'
+  - '$RUN_COMMAND$&f&oFarm de Tridente&r &eestá localizada em &f&o355 30 -37;&7Clique para se teleportar;/tp $player 355 30 -37'
+  - '$RUN_COMMAND$&f&oBoca de Lúcifer (caverna do &ncaralho&r&f) &eestá localizada em &f&o-1191 13 444;&7Clique para se teleportar;/tp $player -1191 13 444'
+  register: true
+  tab_completer:
+  - 'Mob Trap: 204 64 -25'
+  - 'Spawn: -415 89 123'
+  - 'Trident Farming: 355 30 -37'
+players:
+  command: /players
+  type: ALIAS
+  alias: '/list'
+  register: true
+end:
+  command: /end
+  type: RUN_COMMAND
+  runcmd:
+  - '/execute in the_end run tp $player 0 70 0'
+  register: true
+overworld:
+  command: /overworld
+  type: RUN_COMMAND
+  runcmd:
+  - '/execute in overworld run tp $player -415 89 123'
+  register: true
+arrumarbocatmj:
+  command: /arrumarbocatmj
+  type: RUN_COMMAND
+  runcmd:
+  - '/fill -1188 7 427 -1203 9 442 minecraft:nether_portal replace lava'
+  - '/fill -1188 7 427 -1203 9 442 minecraft:nether_portal replace air'
+  register: true

@@ -1,0 +1,106 @@
+#  ____    _                       _          _____
+# / ___|  (_)  _ __ ___    _ __   | |   ___  |_   _|  _ __     __ _
+# \___ \  | | | '_ ` _ \  | '_ \  | |  / _ \   | |   | '_ \   / _` |
+#  ___) | | | | | | | | | | |_) | | | |  __/   | |   | |_) | | (_| |
+# |____/  |_| |_| |_| |_| | .__/  |_|  \___|   |_|   | .__/   \__,_|
+#                         |_|                        |_|
+
+# Place Holders: %time% | %player% | %option%
+
+
+#Messages:
+prefix: ''
+
+Console-Isnt-Player: "&6Console can't use &cSimpleTpa&6!"
+Disabled-World-Message: "&6You can't use &cSimpleTpa &6in this World!"
+Disabled-Back-Command-Message: "&6The command &c/back &6is disabled!"
+Teleport-Message: "&eVocê está sendo teleportado..."
+Teleport-Message-Back-To-Player: "&3se aceito o tpa lOL"
+Player-Is-Null: "&cesse porra nao existe"
+Back-Permission-Message: "&6You don't have the permission &c&osimpletpa.back.others&6!"
+Player-Doesnt-Have-Back-Point: "&6The player doesn't have any back locations!"
+Back-Permission-Message-1: "&6You don't have the permission &c&osimpletpa.back&6!"
+Player-Doesnt-Have-Back-Point-1: "&6You don't have any back locations!"
+Cooldown-Message: "&6You can't use that command for %time% seconds yet!"
+Death-Message: "&6usa /back pra voltar pro lugar q ce morreu tmj"
+Teleport-Message-Back-To-Sender-TPHEREALL: "&epedindo pro &feveryone&e deixa vc teleportar nele tmj!"
+No-Permission-Message: "&cse nao pode"
+TpaToggle-Deactivated-Player-2: "&c%player% &6disabled the &ctpa toggle&6 for you!"
+TpaToggle-Activated-Player-2: "&c%player% &6enabled the &ctpa toggle&6 for you!"
+TpaToggle-Deactivated-Player: "&6You &cdisabled&6 the tpa toggle for &c%player%&6."
+TpaToggle-Activated-Player: "&6You &cenabled&6 the tpa toggle for &c%player%&6."
+TpaToggle-Deactivated: "&6You &cdisabled&6 the tpa toggle."
+TpaToggle-Activated: "&6You &cenabled&6 the tpa toggle."
+TpaToggled-Player-Message: "&6The player has &cdisabled &6the teleportation to him!"
+Player-Is-Player: "&6You can't teleport to &cyourself&6!"
+Already-A-TP-Request: "&6You already have &csent &6a teleport request! If you want to cancel it &c/tpcancel player "
+Tpa-Usage-Message: "&6Please use: &c/tpa (player)"
+Timed-Out-Message: "&6Your &cteleport request&6 has timed out!"
+Sending-Teleport-Request: "&epedindo tp pro &f%player%&e. se tu quiser cancelar usa &f/tpcancel player &etmj"
+Accept-Message: "&apra aceita se usa &f/tpaccept"
+Deny-Message: "&cpra nao aceitar se usa &f/tpdeny"
+Sent-Request-On-You: "&f%player% &ete enviou pedido de tp"
+Timed-Out-Here-Message: "&6Your teleport here request has &ctimed out!"
+Sending-Teleport-Here-Request: "&6Sending a teleport here request to &c%player%&6. If you want to cancel it &c/tpcancel player"
+Sent-Here-Request-On-You: "&c%player% &6has sent you a teleport here request!"
+Already-A-TPHere-Request: "&6You already have &csent &6a teleport here request! If you want to cancel it &c/tpcancel player"
+Tpa-Here-Usage-Message: "&6Please use: &c/tpahere (player)"
+No-Teleport-Requests: "&csei nao"
+Invalid-Player: "&6It seems the player who was teleporting to you has left the server!"
+Teleport-Message-Back-To-Sender: "&ese liga irmao o cara aceitou o tpa, nao se mexe fdp"
+Teleported-Message: "&3TELEPORTO"
+Move-Cancel-Message: "&c&lEU DISSE PRA NAO SE MEXER FDP"
+Rejected-Sender: "&6The player has rejected your &crequest&6!"
+Rejected-Message: "&6You have rejected the &crequest&6!"
+Player-Is-In-Disabled-World: "&6The player you wanted to teleport to is in &cdisabled world&6!"
+Tpcancel-Usage-Message: "&6Please use: &c/tpcancel (player)"
+Error-Cancelling-Request: "&6You can't cancel your own &crequest!"
+Request-Cancelled: "&6You successfully cancelled the &cteleportation request&6!"
+
+## BUTTONS
+#Here you can find the colors https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/ChatColor.html
+
+#Accept Button Properties
+Accept-Button: "ACEITAR"
+Accept-Button-Color: "RED"
+Accept-Button-Set-Bold: true
+Accept-Button-Description: "&eow clica aqui pra &aACEITAR &eo pedido de tp! tmj!"
+
+#Middle Button Properties
+Middle-Button: " | "
+Middle-Button-Color: "GRAY"
+Middle-Button-Set-Bold: true
+Middle-Button-Description: "&7 <- escolhe fdp -> "
+
+#Deny Button Properties
+Deny-Button: "NEGAR"
+Deny-Button-Color: "RED"
+Deny-Button-Set-Bold: true
+Deny-Button-Description: "&eow clica aqui pra &cNEGAR &eo pedido de tp! tmj!"
+
+#If you want to disable simpletpa for some worlds, then you can add them by adding - 'NameOfTheWorld'
+#Disabled Worlds:
+disabled-worlds:
+  - 'disabledworld'
+
+#If you set anything to true, you will disable it.
+#Booleans
+disable-prefix: false
+disable-back-command: false
+disable-accept-deny-buttons: false
+disable-particles: false
+disable-move-system: false
+# Everything works with SECONDS
+#Integers
+
+#This will delay the teleportation for X seconds
+delay-back-command: 5
+delay-teleportation: 5
+#Cooldowns
+back-cooldown: 10
+tpa-cooldown: 10
+tpahere-cooldown: 10
+tpahereall-cooldown: 10
+
+#This will keep the teleport request alive for X seconds
+keep-alive: 60

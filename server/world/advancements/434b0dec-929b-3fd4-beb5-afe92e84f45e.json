@@ -461,6 +461,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/emerald_from_blasting": {
+    "criteria": {
+      "has_emerald_ore": "2021-01-25 17:44:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2021-01-20 15:35:06 +0000"
@@ -620,6 +626,12 @@
   "minecraft:recipes/decorations/birch_sign": {
     "criteria": {
       "has_birch_planks": "2021-01-20 16:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2021-01-25 15:26:47 +0000"
     },
     "done": true
   },
@@ -1353,6 +1365,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2021-01-20 15:26:20 +0000",
+      "minecraft:jungle_edge": "2021-01-25 15:32:22 +0000",
       "minecraft:forest": "2021-01-19 12:21:14 +0000",
       "minecraft:mountains": "2021-01-19 12:26:03 +0000",
       "minecraft:badlands_plateau": "2021-01-24 23:13:50 +0000",
@@ -1363,19 +1376,25 @@
       "minecraft:taiga_hills": "2021-01-24 14:20:20 +0000",
       "minecraft:desert": "2021-01-19 14:28:21 +0000",
       "minecraft:frozen_river": "2021-01-24 17:03:21 +0000",
+      "minecraft:deep_frozen_ocean": "2021-01-25 15:15:28 +0000",
       "minecraft:jungle": "2021-01-20 15:26:41 +0000",
       "minecraft:birch_forest": "2021-01-21 15:52:13 +0000",
       "minecraft:jungle_hills": "2021-01-20 15:26:47 +0000",
       "minecraft:snowy_beach": "2021-01-24 17:03:00 +0000",
       "minecraft:bamboo_jungle": "2021-01-24 23:14:11 +0000",
+      "minecraft:warm_ocean": "2021-01-25 15:17:44 +0000",
+      "minecraft:deep_lukewarm_ocean": "2021-01-25 15:16:10 +0000",
       "minecraft:badlands": "2021-01-19 14:28:23 +0000",
       "minecraft:beach": "2021-01-19 12:23:30 +0000",
       "minecraft:dark_forest": "2021-01-23 15:44:03 +0000",
       "minecraft:river": "2021-01-19 12:23:36 +0000",
+      "minecraft:lukewarm_ocean": "2021-01-25 15:17:39 +0000",
+      "minecraft:birch_forest_hills": "2021-01-25 15:12:58 +0000",
       "minecraft:wooded_mountains": "2021-01-19 12:45:45 +0000",
       "minecraft:bamboo_jungle_hills": "2021-01-24 23:14:25 +0000",
       "minecraft:wooded_hills": "2021-01-20 15:17:48 +0000",
       "minecraft:stone_shore": "2021-01-24 16:27:43 +0000",
+      "minecraft:wooded_badlands_plateau": "2021-01-25 17:32:56 +0000",
       "minecraft:swamp": "2021-01-24 16:29:18 +0000",
       "minecraft:savanna": "2021-01-21 15:55:02 +0000",
       "minecraft:plains": "2021-01-19 12:22:57 +0000"
@@ -2012,6 +2031,7 @@
       "golden_apple": "2021-01-21 14:40:36 +0000",
       "rotten_flesh": "2021-01-19 14:15:35 +0000",
       "cookie": "2021-01-24 21:10:10 +0000",
+      "suspicious_stew": "2021-01-25 15:19:15 +0000",
       "salmon": "2021-01-24 14:28:59 +0000",
       "golden_carrot": "2021-01-20 16:51:02 +0000",
       "cooked_rabbit": "2021-01-24 21:15:19 +0000",
@@ -2052,6 +2072,12 @@
     },
     "done": true
   },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2021-01-25 17:50:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
       "has_cobblestone": "2021-01-19 12:22:14 +0000"
@@ -2061,6 +2087,12 @@
   "minecraft:recipes/building_blocks/diorite_slab": {
     "criteria": {
       "has_diorite": "2021-01-19 12:24:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/bullseye": {
+    "criteria": {
+      "bullseye": "2021-01-25 16:45:45 +0000"
     },
     "done": true
   },
@@ -2521,6 +2553,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_glazed_terracotta": {
+    "criteria": {
+      "has_red_terracotta": "2021-01-25 17:33:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/whos_the_pillager_now": {
     "criteria": {
       "kill_pillager": "2021-01-24 14:35:25 +0000"
@@ -2863,6 +2901,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2021-01-25 16:25:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2021-01-19 12:40:00 +0000"
@@ -2872,6 +2916,12 @@
   "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
     "criteria": {
       "has_mossy_cobblestone": "2021-01-21 16:38:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_smelting": {
+    "criteria": {
+      "has_emerald_ore": "2021-01-25 17:44:23 +0000"
     },
     "done": true
   },
@@ -3358,6 +3408,12 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2021-01-19 12:34:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2021-01-25 15:33:24 +0000"
     },
     "done": true
   },
