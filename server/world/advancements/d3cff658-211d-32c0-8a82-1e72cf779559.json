@@ -540,6 +540,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2021-01-25 19:51:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
       "has_flint": "2021-01-23 15:09:25 +0000"
@@ -1482,6 +1488,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "porkchop": "2021-01-23 14:52:10 +0000",
+      "pumpkin_pie": "2021-01-25 19:40:56 +0000",
       "rotten_flesh": "2021-01-24 13:21:38 +0000",
       "cooked_salmon": "2021-01-24 13:38:06 +0000"
     },
@@ -1532,6 +1539,12 @@
   "minecraft:recipes/decorations/granite_wall": {
     "criteria": {
       "has_granite": "2021-01-24 14:12:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2021-01-25 19:51:55 +0000"
     },
     "done": true
   },
@@ -1625,6 +1638,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2021-01-25 19:51:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2021-01-23 13:59:48 +0000"
@@ -1676,6 +1695,12 @@
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2021-01-23 14:52:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2021-01-25 19:51:55 +0000"
     },
     "done": true
   },
@@ -1748,6 +1773,12 @@
   "minecraft:recipes/redstone/crimson_trapdoor": {
     "criteria": {
       "has_planks": "2021-01-24 20:08:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2021-01-25 19:51:55 +0000"
     },
     "done": true
   },
@@ -2087,6 +2118,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2021-01-25 19:51:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lodestone": {
     "criteria": {
       "has_netherite_ingot": "2021-01-23 15:24:14 +0000"
@@ -2108,6 +2145,12 @@
   "minecraft:recipes/misc/quartz_from_blasting": {
     "criteria": {
       "has_nether_quartz_ore": "2021-01-23 14:40:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2021-01-25 19:51:55 +0000"
     },
     "done": true
   },
@@ -2282,6 +2325,12 @@
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2021-01-23 15:19:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2021-01-25 19:51:55 +0000"
     },
     "done": true
   },
