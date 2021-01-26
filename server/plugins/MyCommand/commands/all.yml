@@ -15,9 +15,16 @@ localizacoes:
   - '$RUN_COMMAND$&f&oBoca de Lúcifer (caverna do &ncaralho&r&f) &eestá localizada em &f&o-1191 13 444;&7Clique para se teleportar;/tp $player -1191 13 444'
   register: true
   tab_completer:
-  - 'Mob Trap: 204 64 -25'
-  - 'Spawn: -415 89 123'
-  - 'Trident Farming: 355 30 -37'
+  - '204 64 -25'
+  - '-415 89 123'
+  - '355 30 -37'
+  - '-1191 13 444'
+nether:
+  command: /nether
+  type: RUN_COMMAND
+  runcmd:
+  - '/execute in overworld run tp $player -1191 13 444'
+  register: true
 players:
   command: /players
   type: ALIAS

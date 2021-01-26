@@ -137,6 +137,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2021-01-26 19:55:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magma_block": {
     "criteria": {
       "has_magma_cream": "2021-01-19 13:14:19 +0000"
@@ -341,6 +347,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2021-01-26 20:02:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2021-01-23 12:50:22 +0000"
@@ -404,6 +416,12 @@
   "minecraft:recipes/redstone/trapped_chest": {
     "criteria": {
       "has_tripwire_hook": "2021-01-24 14:42:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2021-01-26 19:42:11 +0000"
     },
     "done": true
   },
@@ -629,9 +647,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2021-01-26 20:02:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2021-01-19 12:22:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/turtle_helmet": {
+    "criteria": {
+      "has_scute": "2021-01-26 19:51:45 +0000"
     },
     "done": true
   },
@@ -865,6 +895,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2021-01-26 19:55:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2021-01-25 20:04:01 +0000"
@@ -892,6 +928,12 @@
   "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
     "criteria": {
       "has_prismarine": "2021-01-25 23:13:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/all_potions": {
+    "criteria": {
+      "all_effects": "2021-01-26 20:10:37 +0000"
     },
     "done": true
   },
@@ -1099,6 +1141,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2021-01-26 20:02:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/crimson_slab": {
     "criteria": {
       "has_planks": "2021-01-21 15:04:30 +0000"
@@ -1201,6 +1249,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2021-01-26 19:42:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_logs": "2021-01-19 12:21:37 +0000"
@@ -1252,6 +1306,12 @@
   "minecraft:recipes/building_blocks/sea_lantern": {
     "criteria": {
       "has_prismarine_crystals": "2021-01-25 23:11:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2021-01-26 19:42:11 +0000"
     },
     "done": true
   },
@@ -2000,6 +2060,12 @@
     },
     "done": true
   },
+  "minecraft:end/levitate": {
+    "criteria": {
+      "levitated": "2021-01-26 19:27:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bone_meal_from_bone_block": {
     "criteria": {
       "has_bone_block": "2021-01-20 16:49:47 +0000"
@@ -2140,14 +2206,17 @@
       "chorus_fruit": "2021-01-23 12:41:27 +0000",
       "beef": "2021-01-24 23:14:49 +0000",
       "apple": "2021-01-19 13:48:54 +0000",
+      "rabbit": "2021-01-26 20:03:55 +0000",
       "pumpkin_pie": "2021-01-24 22:34:48 +0000",
       "mutton": "2021-01-20 15:25:55 +0000",
+      "pufferfish": "2021-01-26 19:47:41 +0000",
       "bread": "2021-01-19 13:45:48 +0000",
       "golden_apple": "2021-01-21 14:40:36 +0000",
       "rotten_flesh": "2021-01-19 14:15:35 +0000",
       "cookie": "2021-01-24 21:10:10 +0000",
       "suspicious_stew": "2021-01-25 15:19:15 +0000",
       "salmon": "2021-01-24 14:28:59 +0000",
+      "melon_slice": "2021-01-26 19:55:48 +0000",
       "golden_carrot": "2021-01-20 16:51:02 +0000",
       "cooked_rabbit": "2021-01-24 21:15:19 +0000",
       "cooked_chicken": "2021-01-23 13:19:32 +0000",
@@ -3251,6 +3320,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2021-01-26 20:02:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/quartz_from_blasting": {
     "criteria": {
       "has_nether_quartz_ore": "2021-01-20 16:56:27 +0000"
@@ -3615,6 +3690,12 @@
   "minecraft:recipes/decorations/pink_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2021-01-25 20:04:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2021-01-26 19:55:39 +0000"
     },
     "done": true
   },
