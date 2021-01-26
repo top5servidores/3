@@ -50,7 +50,6 @@ MuteCommands:
 - 'emsg'
 - 'msg'
 - 'etell'
-- 'tell'
 - 'er'
 - 'r'
 - 'reply'
