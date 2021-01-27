@@ -23,5 +23,5 @@ worlds:
   world_nether:
     mode: ALLOW
   world_the_end:
-    mode: DENY
+    mode: DEFAULT
     deny_msg: "&7You can't sleep here.."

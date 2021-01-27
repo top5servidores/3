@@ -7,3 +7,11 @@
   - vhr:WHITE
   - cr:BLACK
   - bo:WHITE
+'1611706844417':
+  color: 0
+  patterns:
+  - ld:LIGHT_GRAY
+  - rud:LIGHT_GRAY
+  - rd:BLACK
+  - lud:BLACK
+  - br:RED

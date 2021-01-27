@@ -1048,6 +1048,12 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2021-01-27 00:34:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2021-01-25 19:22:07 +0000"
@@ -1123,6 +1129,12 @@
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2021-01-25 18:58:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2021-01-27 00:34:09 +0000"
     },
     "done": true
   },
@@ -1744,6 +1756,18 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2021-01-27 00:34:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2021-01-27 00:20:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_stone": "2021-01-25 20:02:52 +0000"
@@ -1843,6 +1867,12 @@
   "minecraft:recipes/building_blocks/andesite_slab": {
     "criteria": {
       "has_andesite": "2021-01-25 20:05:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2021-01-27 00:38:55 +0000"
     },
     "done": true
   },
